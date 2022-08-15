@@ -65,5 +65,10 @@ namespace Itami
         {
 
         }
+
+        private void Statu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
