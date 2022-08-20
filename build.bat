@@ -13,7 +13,7 @@ if not exist "%cache%" (
 )
 
 echo Building Itami...
-msbuild.exe "%cd%\Itami\Itami.csproj" /p:Configuration=Release /property:Platform=x64 /p:OutputPath="%cache%" /p:AllowUnsafeBlocks=true
+msbuild.exe "%cd%\Itami\Itami.csproj" /p:Configuration=Release /property:Platform=x86 /p:OutputPath="%cache%" /p:AllowUnsafeBlocks=true
 
 Echo Obfuscating...
 set profiles=%cd%\Obfuscation Profiles
