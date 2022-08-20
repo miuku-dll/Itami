@@ -273,6 +273,16 @@ namespace Itami.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PngItem_3731146 {
+            get {
+                object obj = ResourceManager.GetObject("PngItem_3731146", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PngItem_407139 {
             get {
                 object obj = ResourceManager.GetObject("PngItem_407139", resourceCulture);
@@ -346,6 +356,16 @@ namespace Itami.Properties {
         internal static System.Drawing.Bitmap settings_10_32 {
             get {
                 object obj = ResourceManager.GetObject("settings-10-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_10_64 {
+            get {
+                object obj = ResourceManager.GetObject("settings-10-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

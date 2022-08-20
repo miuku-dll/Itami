@@ -40,9 +40,19 @@ namespace Itami
             this.trans = new Bunifu.UI.WinForms.BunifuTransition(this.components);
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuPanel4 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.ctrpage = new Bunifu.UI.WinForms.BunifuPages();
             this.AimAssistPage = new System.Windows.Forms.TabPage();
+            this.espsettings = new Bunifu.UI.WinForms.BunifuPanel();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ESPTypeChoose = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.ESPClolorChose = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.label63 = new System.Windows.Forms.Label();
@@ -69,14 +79,6 @@ namespace Itami
             this.label13 = new System.Windows.Forms.Label();
             this.CSChangerToggle = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.label41 = new System.Windows.Forms.Label();
-            this.espsettings = new Bunifu.UI.WinForms.BunifuPanel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.ESPTypeChoose = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.ESPClolorChose = new Guna.UI2.WinForms.Guna2Button();
             this.LoginPage = new System.Windows.Forms.TabPage();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.status = new System.Windows.Forms.Label();
@@ -216,6 +218,10 @@ namespace Itami
             this.label37 = new System.Windows.Forms.Label();
             this.dllPath = new Guna.UI2.WinForms.Guna2TextBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button20 = new Guna.UI2.WinForms.Guna2Button();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
             this.configsettings = new Bunifu.UI.WinForms.BunifuPanel();
             this.configName = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Separator7 = new Guna.UI2.WinForms.Guna2Separator();
@@ -226,11 +232,12 @@ namespace Itami
             this.label95 = new System.Windows.Forms.Label();
             this.LoadConfig = new Guna.UI2.WinForms.Guna2Button();
             this.configList = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button20 = new Guna.UI2.WinForms.Guna2Button();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button22 = new Guna.UI2.WinForms.Guna2Button();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.ReplayBotToggle = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.repsettings = new Bunifu.UI.WinForms.BunifuPanel();
             this.FlipToggle = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.label51 = new System.Windows.Forms.Label();
@@ -240,11 +247,6 @@ namespace Itami
             this.label67 = new System.Windows.Forms.Label();
             this.guna2Button24 = new Guna.UI2.WinForms.Guna2Button();
             this.label91 = new System.Windows.Forms.Label();
-            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button22 = new Guna.UI2.WinForms.Guna2Button();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.ReplayBotToggle = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.label87 = new System.Windows.Forms.Label();
@@ -259,7 +261,6 @@ namespace Itami
             this.label74 = new System.Windows.Forms.Label();
             this.guna2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label69 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.featureslabel = new System.Windows.Forms.Label();
@@ -281,13 +282,14 @@ namespace Itami
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.trans1 = new Guna.UI2.WinForms.Guna2Transition();
             this.bunifuPanel4.SuspendLayout();
+            this.guna2Panel16.SuspendLayout();
             this.ctrpage.SuspendLayout();
             this.AimAssistPage.SuspendLayout();
+            this.espsettings.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
-            this.espsettings.SuspendLayout();
             this.LoginPage.SuspendLayout();
             this.bunifuPanel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -319,11 +321,11 @@ namespace Itami
             this.accsettings.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.configsettings.SuspendLayout();
             this.guna2Panel14.SuspendLayout();
+            this.configsettings.SuspendLayout();
             this.tabPage7.SuspendLayout();
-            this.repsettings.SuspendLayout();
             this.guna2Panel15.SuspendLayout();
+            this.repsettings.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.guna2Panel13.SuspendLayout();
             this.profiless.SuspendLayout();
@@ -333,7 +335,7 @@ namespace Itami
             // 
             // elpse
             // 
-            this.elpse.BorderRadius = 0;
+            this.elpse.BorderRadius = 20;
             this.elpse.TargetControl = this;
             // 
             // Notification
@@ -461,9 +463,8 @@ namespace Itami
             this.bunifuPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.bunifuPanel4.BorderRadius = 0;
             this.bunifuPanel4.BorderThickness = 0;
+            this.bunifuPanel4.Controls.Add(this.guna2Panel16);
             this.bunifuPanel4.Controls.Add(this.ctrpage);
-            this.bunifuPanel4.Controls.Add(this.guna2Button12);
-            this.bunifuPanel4.Controls.Add(this.guna2Button1);
             this.bunifuPanel4.Controls.Add(this.label2);
             this.bunifuPanel4.Controls.Add(this.label55);
             this.bunifuPanel4.Controls.Add(this.featureslabel);
@@ -482,33 +483,77 @@ namespace Itami
             this.buffTooltip.SetToolTipTitle(this.bunifuPanel4, "");
             this.bunifuPanel4.Click += new System.EventHandler(this.bunifuPanel4_Click);
             // 
+            // guna2Panel16
+            // 
+            this.guna2Panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel16.BorderRadius = 20;
+            this.guna2Panel16.Controls.Add(this.guna2Button12);
+            this.guna2Panel16.Controls.Add(this.guna2Button1);
+            this.trans1.SetDecoration(this.guna2Panel16, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel16, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.guna2Panel16.Location = new System.Drawing.Point(451, -65);
+            this.guna2Panel16.Name = "guna2Panel16";
+            this.guna2Panel16.ShadowDecoration.Parent = this.guna2Panel16;
+            this.guna2Panel16.Size = new System.Drawing.Size(172, 100);
+            this.guna2Panel16.TabIndex = 26;
+            this.buffTooltip.SetToolTip(this.guna2Panel16, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel16, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel16, "");
+            // 
             // guna2Button12
             // 
             this.guna2Button12.Animated = true;
-            this.guna2Button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.guna2Button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.guna2Button12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.guna2Button12.BorderRadius = 2;
+            this.guna2Button12.BorderRadius = 6;
             this.guna2Button12.CheckedState.Parent = this.guna2Button12;
             this.guna2Button12.CustomImages.Parent = this.guna2Button12;
             this.trans1.SetDecoration(this.guna2Button12, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.guna2Button12, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Button12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Button12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button12.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button12.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button12.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.guna2Button12.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.guna2Button12.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button12.HoverState.Parent = this.guna2Button12;
-            this.guna2Button12.Location = new System.Drawing.Point(424, 12);
+            this.guna2Button12.Location = new System.Drawing.Point(16, 76);
             this.guna2Button12.Name = "guna2Button12";
             this.guna2Button12.ShadowDecoration.Parent = this.guna2Button12;
-            this.guna2Button12.Size = new System.Drawing.Size(35, 35);
+            this.guna2Button12.Size = new System.Drawing.Size(12, 12);
             this.guna2Button12.TabIndex = 25;
-            this.guna2Button12.Text = "_";
             this.buffTooltip.SetToolTip(this.guna2Button12, "");
             this.buffTooltip.SetToolTipIcon(this.guna2Button12, null);
             this.buffTooltip.SetToolTipTitle(this.guna2Button12, "");
             this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.guna2Button1.BorderRadius = 6;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.trans1.SetDecoration(this.guna2Button1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Button1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Location = new System.Drawing.Point(38, 76);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(12, 12);
+            this.guna2Button1.TabIndex = 17;
+            this.buffTooltip.SetToolTip(this.guna2Button1, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Button1, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Button1, "");
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // ctrpage
             // 
@@ -526,15 +571,15 @@ namespace Itami
             this.ctrpage.Controls.Add(this.tabPage8);
             this.trans.SetDecoration(this.ctrpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.trans1.SetDecoration(this.ctrpage, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ctrpage.Location = new System.Drawing.Point(0, 120);
+            this.ctrpage.Location = new System.Drawing.Point(0, 185);
             this.ctrpage.Multiline = true;
             this.ctrpage.Name = "ctrpage";
-            this.ctrpage.Page = this.tabPage5;
-            this.ctrpage.PageIndex = 5;
-            this.ctrpage.PageName = "tabPage5";
-            this.ctrpage.PageTitle = "Lmao";
+            this.ctrpage.Page = this.tabPage2;
+            this.ctrpage.PageIndex = 2;
+            this.ctrpage.PageName = "tabPage2";
+            this.ctrpage.PageTitle = "Aim Assist";
             this.ctrpage.SelectedIndex = 0;
-            this.ctrpage.Size = new System.Drawing.Size(528, 496);
+            this.ctrpage.Size = new System.Drawing.Size(528, 431);
             this.ctrpage.TabIndex = 1;
             this.buffTooltip.SetToolTip(this.ctrpage, "");
             this.buffTooltip.SetToolTipIcon(this.ctrpage, null);
@@ -560,546 +605,22 @@ namespace Itami
             // AimAssistPage
             // 
             this.AimAssistPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.AimAssistPage.Controls.Add(this.espsettings);
             this.AimAssistPage.Controls.Add(this.guna2Panel4);
             this.AimAssistPage.Controls.Add(this.guna2Panel3);
             this.AimAssistPage.Controls.Add(this.guna2Panel2);
             this.AimAssistPage.Controls.Add(this.guna2Panel1);
-            this.AimAssistPage.Controls.Add(this.espsettings);
             this.trans.SetDecoration(this.AimAssistPage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.trans1.SetDecoration(this.AimAssistPage, Guna.UI2.AnimatorNS.DecorationType.None);
             this.AimAssistPage.Location = new System.Drawing.Point(4, 4);
             this.AimAssistPage.Name = "AimAssistPage";
             this.AimAssistPage.Padding = new System.Windows.Forms.Padding(3);
-            this.AimAssistPage.Size = new System.Drawing.Size(520, 452);
+            this.AimAssistPage.Size = new System.Drawing.Size(520, 387);
             this.AimAssistPage.TabIndex = 1;
             this.AimAssistPage.Text = "Enlighten";
             this.buffTooltip.SetToolTip(this.AimAssistPage, "");
             this.buffTooltip.SetToolTipIcon(this.AimAssistPage, null);
             this.buffTooltip.SetToolTipTitle(this.AimAssistPage, "");
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Panel4.BorderRadius = 10;
-            this.guna2Panel4.Controls.Add(this.guna2Button6);
-            this.guna2Panel4.Controls.Add(this.label63);
-            this.guna2Panel4.Controls.Add(this.label82);
-            this.guna2Panel4.Controls.Add(this.esprog);
-            this.trans1.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Panel4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Panel4.Location = new System.Drawing.Point(51, 335);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(403, 92);
-            this.guna2Panel4.TabIndex = 28;
-            this.buffTooltip.SetToolTip(this.guna2Panel4, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Panel4, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Panel4, "");
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button6.BorderRadius = 2;
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.trans1.SetDecoration(this.guna2Button6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Button6, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Image = global::Itami.Properties.Resources.settings_10_32;
-            this.guna2Button6.Location = new System.Drawing.Point(14, 60);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(25, 25);
-            this.guna2Button6.TabIndex = 25;
-            this.buffTooltip.SetToolTip(this.guna2Button6, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Button6, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Button6, "");
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label63, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label63.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.label63.Location = new System.Drawing.Point(10, 36);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(288, 20);
-            this.label63.TabIndex = 26;
-            this.label63.Text = "Helps you by revealing the circle locations";
-            this.buffTooltip.SetToolTip(this.label63, "");
-            this.buffTooltip.SetToolTipIcon(this.label63, null);
-            this.buffTooltip.SetToolTipTitle(this.label63, "");
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label82, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label82, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label82.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label82.ForeColor = System.Drawing.Color.White;
-            this.label82.Location = new System.Drawing.Point(9, 11);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(214, 25);
-            this.label82.TabIndex = 2;
-            this.label82.Text = "Extrasensory perception";
-            this.buffTooltip.SetToolTip(this.label82, "");
-            this.buffTooltip.SetToolTipIcon(this.label82, null);
-            this.buffTooltip.SetToolTipTitle(this.label82, "");
-            // 
-            // esprog
-            // 
-            this.esprog.Animated = true;
-            this.esprog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.esprog.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.esprog.CheckedState.BorderRadius = 8;
-            this.esprog.CheckedState.BorderThickness = 0;
-            this.esprog.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.esprog.CheckedState.Parent = this.esprog;
-            this.esprog.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.trans1.SetDecoration(this.esprog, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.esprog, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.esprog.Location = new System.Drawing.Point(379, 68);
-            this.esprog.Name = "esprog";
-            this.esprog.ShadowDecoration.Parent = this.esprog;
-            this.esprog.Size = new System.Drawing.Size(17, 17);
-            this.esprog.TabIndex = 24;
-            this.buffTooltip.SetToolTip(this.esprog, "");
-            this.buffTooltip.SetToolTipIcon(this.esprog, null);
-            this.buffTooltip.SetToolTipTitle(this.esprog, "");
-            this.esprog.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.esprog.UncheckedState.BorderRadius = 8;
-            this.esprog.UncheckedState.BorderThickness = 1;
-            this.esprog.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.esprog.UncheckedState.Parent = this.esprog;
-            this.esprog.CheckedChanged += new System.EventHandler(this.esprog_CheckedChanged_1);
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Panel3.BorderRadius = 10;
-            this.guna2Panel3.Controls.Add(this.label60);
-            this.guna2Panel3.Controls.Add(this.label43);
-            this.guna2Panel3.Controls.Add(this.ArChangerSwitch);
-            this.guna2Panel3.Controls.Add(this.RateDisplay);
-            this.guna2Panel3.Controls.Add(this.label6);
-            this.guna2Panel3.Controls.Add(this.ArRate);
-            this.trans1.SetDecoration(this.guna2Panel3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Panel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(51, 232);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(403, 92);
-            this.guna2Panel3.TabIndex = 27;
-            this.buffTooltip.SetToolTip(this.guna2Panel3, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Panel3, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Panel3, "");
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label60, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label60, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label60.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.label60.Location = new System.Drawing.Point(10, 36);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(271, 20);
-            this.label60.TabIndex = 26;
-            this.label60.Text = "Changes the speed the circles approach";
-            this.buffTooltip.SetToolTip(this.label60, "");
-            this.buffTooltip.SetToolTipIcon(this.label60, null);
-            this.buffTooltip.SetToolTipTitle(this.label60, "");
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label43, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label43.Font = new System.Drawing.Font("Segoe UI Semibold", 10.25F, System.Drawing.FontStyle.Bold);
-            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label43.Location = new System.Drawing.Point(350, 11);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 19);
-            this.label43.TabIndex = 12;
-            this.label43.Text = "rate:";
-            this.buffTooltip.SetToolTip(this.label43, "");
-            this.buffTooltip.SetToolTipIcon(this.label43, null);
-            this.buffTooltip.SetToolTipTitle(this.label43, "");
-            // 
-            // ArChangerSwitch
-            // 
-            this.ArChangerSwitch.Animated = true;
-            this.ArChangerSwitch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ArChangerSwitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.ArChangerSwitch.CheckedState.BorderRadius = 8;
-            this.ArChangerSwitch.CheckedState.BorderThickness = 0;
-            this.ArChangerSwitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.ArChangerSwitch.CheckedState.Parent = this.ArChangerSwitch;
-            this.ArChangerSwitch.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.trans1.SetDecoration(this.ArChangerSwitch, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.ArChangerSwitch, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.ArChangerSwitch.Location = new System.Drawing.Point(379, 68);
-            this.ArChangerSwitch.Name = "ArChangerSwitch";
-            this.ArChangerSwitch.ShadowDecoration.Parent = this.ArChangerSwitch;
-            this.ArChangerSwitch.Size = new System.Drawing.Size(17, 17);
-            this.ArChangerSwitch.TabIndex = 23;
-            this.buffTooltip.SetToolTip(this.ArChangerSwitch, "");
-            this.buffTooltip.SetToolTipIcon(this.ArChangerSwitch, null);
-            this.buffTooltip.SetToolTipTitle(this.ArChangerSwitch, "");
-            this.ArChangerSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.ArChangerSwitch.UncheckedState.BorderRadius = 8;
-            this.ArChangerSwitch.UncheckedState.BorderThickness = 1;
-            this.ArChangerSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.ArChangerSwitch.UncheckedState.Parent = this.ArChangerSwitch;
-            this.ArChangerSwitch.CheckedChanged += new System.EventHandler(this.ArChangerSwitch_CheckedChanged);
-            // 
-            // RateDisplay
-            // 
-            this.RateDisplay.AutoSize = true;
-            this.RateDisplay.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.RateDisplay, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.RateDisplay, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.RateDisplay.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.RateDisplay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.RateDisplay.Location = new System.Drawing.Point(382, 15);
-            this.RateDisplay.Name = "RateDisplay";
-            this.RateDisplay.Size = new System.Drawing.Size(13, 13);
-            this.RateDisplay.TabIndex = 6;
-            this.RateDisplay.Text = "3";
-            this.buffTooltip.SetToolTip(this.RateDisplay, "");
-            this.buffTooltip.SetToolTipIcon(this.RateDisplay, null);
-            this.buffTooltip.SetToolTipTitle(this.RateDisplay, "");
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label6, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(9, 11);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 25);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Approach rate changer";
-            this.buffTooltip.SetToolTip(this.label6, "");
-            this.buffTooltip.SetToolTipIcon(this.label6, null);
-            this.buffTooltip.SetToolTipTitle(this.label6, "");
-            // 
-            // ArRate
-            // 
-            this.ArRate.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.ArRate, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.ArRate, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.ArRate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ArRate.HoverState.Parent = this.ArRate;
-            this.ArRate.Location = new System.Drawing.Point(14, 64);
-            this.ArRate.Maximum = 11;
-            this.ArRate.Name = "ArRate";
-            this.ArRate.Size = new System.Drawing.Size(337, 16);
-            this.ArRate.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
-            this.ArRate.TabIndex = 5;
-            this.ArRate.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.buffTooltip.SetToolTip(this.ArRate, "");
-            this.buffTooltip.SetToolTipIcon(this.ArRate, null);
-            this.buffTooltip.SetToolTipTitle(this.ArRate, "");
-            this.ArRate.Value = 3;
-            this.ArRate.ValueChanged += new System.EventHandler(this.Ar_Value);
-            this.ArRate.Scroll += new System.Windows.Forms.ScrollEventHandler(this.ArRate_Scroll);
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Panel2.BorderRadius = 10;
-            this.guna2Panel2.Controls.Add(this.label59);
-            this.guna2Panel2.Controls.Add(this.HPDrainRateChangerToggle);
-            this.guna2Panel2.Controls.Add(this.label3);
-            this.guna2Panel2.Controls.Add(this.HPDrainrateValue);
-            this.guna2Panel2.Controls.Add(this.HPDrainRateDisplay);
-            this.guna2Panel2.Controls.Add(this.label42);
-            this.trans1.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Panel2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(51, 129);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(403, 92);
-            this.guna2Panel2.TabIndex = 26;
-            this.buffTooltip.SetToolTip(this.guna2Panel2, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Panel2, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Panel2, "");
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label59, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label59, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label59.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.label59.Location = new System.Drawing.Point(10, 36);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(276, 20);
-            this.label59.TabIndex = 25;
-            this.label59.Text = "Changes the amount your hp goes down";
-            this.buffTooltip.SetToolTip(this.label59, "");
-            this.buffTooltip.SetToolTipIcon(this.label59, null);
-            this.buffTooltip.SetToolTipTitle(this.label59, "");
-            // 
-            // HPDrainRateChangerToggle
-            // 
-            this.HPDrainRateChangerToggle.Animated = true;
-            this.HPDrainRateChangerToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.HPDrainRateChangerToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.HPDrainRateChangerToggle.CheckedState.BorderRadius = 8;
-            this.HPDrainRateChangerToggle.CheckedState.BorderThickness = 0;
-            this.HPDrainRateChangerToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.HPDrainRateChangerToggle.CheckedState.Parent = this.HPDrainRateChangerToggle;
-            this.HPDrainRateChangerToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.trans1.SetDecoration(this.HPDrainRateChangerToggle, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.HPDrainRateChangerToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.HPDrainRateChangerToggle.Location = new System.Drawing.Point(379, 68);
-            this.HPDrainRateChangerToggle.Name = "HPDrainRateChangerToggle";
-            this.HPDrainRateChangerToggle.ShadowDecoration.Parent = this.HPDrainRateChangerToggle;
-            this.HPDrainRateChangerToggle.Size = new System.Drawing.Size(17, 17);
-            this.HPDrainRateChangerToggle.TabIndex = 22;
-            this.buffTooltip.SetToolTip(this.HPDrainRateChangerToggle, "");
-            this.buffTooltip.SetToolTipIcon(this.HPDrainRateChangerToggle, null);
-            this.buffTooltip.SetToolTipTitle(this.HPDrainRateChangerToggle, "");
-            this.HPDrainRateChangerToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.HPDrainRateChangerToggle.UncheckedState.BorderRadius = 8;
-            this.HPDrainRateChangerToggle.UncheckedState.BorderThickness = 1;
-            this.HPDrainRateChangerToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.HPDrainRateChangerToggle.UncheckedState.Parent = this.HPDrainRateChangerToggle;
-            this.HPDrainRateChangerToggle.CheckedChanged += new System.EventHandler(this.HPDrainRateChangerToggle_CheckedChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(9, 11);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(193, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "HP drain rate changer";
-            this.buffTooltip.SetToolTip(this.label3, "");
-            this.buffTooltip.SetToolTipIcon(this.label3, null);
-            this.buffTooltip.SetToolTipTitle(this.label3, "");
-            // 
-            // HPDrainrateValue
-            // 
-            this.HPDrainrateValue.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.HPDrainrateValue, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.HPDrainrateValue, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.HPDrainrateValue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.HPDrainrateValue.HoverState.Parent = this.HPDrainrateValue;
-            this.HPDrainrateValue.Location = new System.Drawing.Point(14, 64);
-            this.HPDrainrateValue.Maximum = 10;
-            this.HPDrainrateValue.Name = "HPDrainrateValue";
-            this.HPDrainrateValue.Size = new System.Drawing.Size(337, 16);
-            this.HPDrainrateValue.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
-            this.HPDrainrateValue.TabIndex = 5;
-            this.HPDrainrateValue.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.buffTooltip.SetToolTip(this.HPDrainrateValue, "");
-            this.buffTooltip.SetToolTipIcon(this.HPDrainrateValue, null);
-            this.buffTooltip.SetToolTipTitle(this.HPDrainrateValue, "");
-            this.HPDrainrateValue.Value = 0;
-            this.HPDrainrateValue.ValueChanged += new System.EventHandler(this.HP_Value);
-            this.HPDrainrateValue.Scroll += new System.Windows.Forms.ScrollEventHandler(this.HPDrainrateValue_Scroll);
-            // 
-            // HPDrainRateDisplay
-            // 
-            this.HPDrainRateDisplay.AutoSize = true;
-            this.HPDrainRateDisplay.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.HPDrainRateDisplay, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.HPDrainRateDisplay, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.HPDrainRateDisplay.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.HPDrainRateDisplay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.HPDrainRateDisplay.Location = new System.Drawing.Point(382, 15);
-            this.HPDrainRateDisplay.Name = "HPDrainRateDisplay";
-            this.HPDrainRateDisplay.Size = new System.Drawing.Size(13, 13);
-            this.HPDrainRateDisplay.TabIndex = 1;
-            this.HPDrainRateDisplay.Text = "0";
-            this.buffTooltip.SetToolTip(this.HPDrainRateDisplay, "");
-            this.buffTooltip.SetToolTipIcon(this.HPDrainRateDisplay, null);
-            this.buffTooltip.SetToolTipTitle(this.HPDrainRateDisplay, "");
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label42, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label42, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label42.Font = new System.Drawing.Font("Segoe UI Semibold", 10.25F, System.Drawing.FontStyle.Bold);
-            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label42.Location = new System.Drawing.Point(350, 11);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(36, 19);
-            this.label42.TabIndex = 11;
-            this.label42.Text = "rate:";
-            this.buffTooltip.SetToolTip(this.label42, "");
-            this.buffTooltip.SetToolTipIcon(this.label42, null);
-            this.buffTooltip.SetToolTipTitle(this.label42, "");
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Panel1.BorderRadius = 10;
-            this.guna2Panel1.Controls.Add(this.CircleSizeDisplay);
-            this.guna2Panel1.Controls.Add(this.CircleSize);
-            this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Controls.Add(this.label13);
-            this.guna2Panel1.Controls.Add(this.CSChangerToggle);
-            this.guna2Panel1.Controls.Add(this.label41);
-            this.trans1.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Panel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(51, 26);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(403, 92);
-            this.guna2Panel1.TabIndex = 25;
-            this.buffTooltip.SetToolTip(this.guna2Panel1, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Panel1, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Panel1, "");
-            // 
-            // CircleSizeDisplay
-            // 
-            this.CircleSizeDisplay.AutoSize = true;
-            this.CircleSizeDisplay.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.CircleSizeDisplay, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.CircleSizeDisplay, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.CircleSizeDisplay.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.CircleSizeDisplay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.CircleSizeDisplay.Location = new System.Drawing.Point(382, 15);
-            this.CircleSizeDisplay.Name = "CircleSizeDisplay";
-            this.CircleSizeDisplay.Size = new System.Drawing.Size(13, 13);
-            this.CircleSizeDisplay.TabIndex = 1;
-            this.CircleSizeDisplay.Text = "5";
-            this.buffTooltip.SetToolTip(this.CircleSizeDisplay, "");
-            this.buffTooltip.SetToolTipIcon(this.CircleSizeDisplay, null);
-            this.buffTooltip.SetToolTipTitle(this.CircleSizeDisplay, "");
-            // 
-            // CircleSize
-            // 
-            this.CircleSize.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.CircleSize, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.CircleSize, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.CircleSize.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.CircleSize.HoverState.Parent = this.CircleSize;
-            this.CircleSize.Location = new System.Drawing.Point(14, 64);
-            this.CircleSize.Maximum = 10;
-            this.CircleSize.Name = "CircleSize";
-            this.CircleSize.Size = new System.Drawing.Size(337, 16);
-            this.CircleSize.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
-            this.CircleSize.TabIndex = 5;
-            this.CircleSize.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.buffTooltip.SetToolTip(this.CircleSize, "");
-            this.buffTooltip.SetToolTipIcon(this.CircleSize, null);
-            this.buffTooltip.SetToolTipTitle(this.CircleSize, "");
-            this.CircleSize.Value = 5;
-            this.CircleSize.ValueChanged += new System.EventHandler(this.CS_Value);
-            this.CircleSize.Scroll += new System.Windows.Forms.ScrollEventHandler(this.CircleSize_Scroll);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.label1.Location = new System.Drawing.Point(10, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 20);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Changes the osu! circle size";
-            this.buffTooltip.SetToolTip(this.label1, "");
-            this.buffTooltip.SetToolTipIcon(this.label1, null);
-            this.buffTooltip.SetToolTipTitle(this.label1, "");
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label13, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label13, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(9, 11);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(165, 25);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Circle size changer";
-            this.buffTooltip.SetToolTip(this.label13, "");
-            this.buffTooltip.SetToolTipIcon(this.label13, null);
-            this.buffTooltip.SetToolTipTitle(this.label13, "");
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
-            // CSChangerToggle
-            // 
-            this.CSChangerToggle.Animated = true;
-            this.CSChangerToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.CSChangerToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.CSChangerToggle.CheckedState.BorderRadius = 8;
-            this.CSChangerToggle.CheckedState.BorderThickness = 0;
-            this.CSChangerToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.CSChangerToggle.CheckedState.Parent = this.CSChangerToggle;
-            this.CSChangerToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.trans1.SetDecoration(this.CSChangerToggle, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.CSChangerToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.CSChangerToggle.Location = new System.Drawing.Point(379, 68);
-            this.CSChangerToggle.Name = "CSChangerToggle";
-            this.CSChangerToggle.ShadowDecoration.Parent = this.CSChangerToggle;
-            this.CSChangerToggle.Size = new System.Drawing.Size(17, 17);
-            this.CSChangerToggle.TabIndex = 21;
-            this.buffTooltip.SetToolTip(this.CSChangerToggle, "");
-            this.buffTooltip.SetToolTipIcon(this.CSChangerToggle, null);
-            this.buffTooltip.SetToolTipTitle(this.CSChangerToggle, "");
-            this.CSChangerToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.CSChangerToggle.UncheckedState.BorderRadius = 8;
-            this.CSChangerToggle.UncheckedState.BorderThickness = 1;
-            this.CSChangerToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.CSChangerToggle.UncheckedState.Parent = this.CSChangerToggle;
-            this.CSChangerToggle.CheckedChanged += new System.EventHandler(this.CSChangerToggle_CheckedChanged_1);
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label41, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label41, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label41.Font = new System.Drawing.Font("Segoe UI Semibold", 10.25F, System.Drawing.FontStyle.Bold);
-            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label41.Location = new System.Drawing.Point(351, 11);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(36, 19);
-            this.label41.TabIndex = 10;
-            this.label41.Text = "size:";
-            this.buffTooltip.SetToolTip(this.label41, "");
-            this.buffTooltip.SetToolTipIcon(this.label41, null);
-            this.buffTooltip.SetToolTipTitle(this.label41, "");
             // 
             // espsettings
             // 
@@ -1141,8 +662,8 @@ namespace Itami
             this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button7.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.HoverState.Parent = this.guna2Button7;
             this.guna2Button7.Location = new System.Drawing.Point(392, 5);
@@ -1258,7 +779,7 @@ namespace Itami
             this.ESPTypeChoose.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
             this.ESPTypeChoose.ItemHeight = 30;
             this.ESPTypeChoose.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.ESPTypeChoose.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.ESPTypeChoose.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.ESPTypeChoose.Items.AddRange(new object[] {
             "Traces",
             "Circle"});
@@ -1284,7 +805,7 @@ namespace Itami
             this.ESPClolorChose.CustomImages.Parent = this.ESPClolorChose;
             this.trans1.SetDecoration(this.ESPClolorChose, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.ESPClolorChose, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.ESPClolorChose.FillColor = System.Drawing.Color.Red;
+            this.ESPClolorChose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.ESPClolorChose.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.ESPClolorChose.ForeColor = System.Drawing.Color.White;
             this.ESPClolorChose.HoverState.Parent = this.ESPClolorChose;
@@ -1298,6 +819,530 @@ namespace Itami
             this.buffTooltip.SetToolTipTitle(this.ESPClolorChose, "");
             this.ESPClolorChose.Click += new System.EventHandler(this.ESPClolorChose_Click);
             // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel4.BorderRadius = 10;
+            this.guna2Panel4.Controls.Add(this.guna2Button6);
+            this.guna2Panel4.Controls.Add(this.label63);
+            this.guna2Panel4.Controls.Add(this.label82);
+            this.guna2Panel4.Controls.Add(this.esprog);
+            this.trans1.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Panel4.Location = new System.Drawing.Point(51, 335);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
+            this.guna2Panel4.Size = new System.Drawing.Size(403, 92);
+            this.guna2Panel4.TabIndex = 28;
+            this.buffTooltip.SetToolTip(this.guna2Panel4, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel4, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel4, "");
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.Animated = true;
+            this.guna2Button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button6.BorderRadius = 2;
+            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
+            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
+            this.trans1.SetDecoration(this.guna2Button6, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Button6, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.guna2Button6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.Parent = this.guna2Button6;
+            this.guna2Button6.Image = global::Itami.Properties.Resources.settings_10_64;
+            this.guna2Button6.Location = new System.Drawing.Point(14, 60);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
+            this.guna2Button6.Size = new System.Drawing.Size(25, 25);
+            this.guna2Button6.TabIndex = 25;
+            this.buffTooltip.SetToolTip(this.guna2Button6, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Button6, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Button6, "");
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label63, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label63.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label63.Location = new System.Drawing.Point(10, 36);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(288, 20);
+            this.label63.TabIndex = 26;
+            this.label63.Text = "Helps you by revealing the circle locations";
+            this.buffTooltip.SetToolTip(this.label63, "");
+            this.buffTooltip.SetToolTipIcon(this.label63, null);
+            this.buffTooltip.SetToolTipTitle(this.label63, "");
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label82, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label82, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label82.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label82.ForeColor = System.Drawing.Color.White;
+            this.label82.Location = new System.Drawing.Point(9, 11);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(214, 25);
+            this.label82.TabIndex = 2;
+            this.label82.Text = "Extrasensory perception";
+            this.buffTooltip.SetToolTip(this.label82, "");
+            this.buffTooltip.SetToolTipIcon(this.label82, null);
+            this.buffTooltip.SetToolTipTitle(this.label82, "");
+            // 
+            // esprog
+            // 
+            this.esprog.Animated = true;
+            this.esprog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.esprog.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.esprog.CheckedState.BorderRadius = 8;
+            this.esprog.CheckedState.BorderThickness = 0;
+            this.esprog.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.esprog.CheckedState.Parent = this.esprog;
+            this.esprog.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.trans1.SetDecoration(this.esprog, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.esprog, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.esprog.Location = new System.Drawing.Point(379, 68);
+            this.esprog.Name = "esprog";
+            this.esprog.ShadowDecoration.Parent = this.esprog;
+            this.esprog.Size = new System.Drawing.Size(17, 17);
+            this.esprog.TabIndex = 24;
+            this.buffTooltip.SetToolTip(this.esprog, "");
+            this.buffTooltip.SetToolTipIcon(this.esprog, null);
+            this.buffTooltip.SetToolTipTitle(this.esprog, "");
+            this.esprog.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.esprog.UncheckedState.BorderRadius = 8;
+            this.esprog.UncheckedState.BorderThickness = 1;
+            this.esprog.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.esprog.UncheckedState.Parent = this.esprog;
+            this.esprog.CheckedChanged += new System.EventHandler(this.esprog_CheckedChanged_1);
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel3.BorderRadius = 10;
+            this.guna2Panel3.Controls.Add(this.label60);
+            this.guna2Panel3.Controls.Add(this.label43);
+            this.guna2Panel3.Controls.Add(this.ArChangerSwitch);
+            this.guna2Panel3.Controls.Add(this.RateDisplay);
+            this.guna2Panel3.Controls.Add(this.label6);
+            this.guna2Panel3.Controls.Add(this.ArRate);
+            this.trans1.SetDecoration(this.guna2Panel3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Panel3.Location = new System.Drawing.Point(51, 232);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
+            this.guna2Panel3.Size = new System.Drawing.Size(403, 92);
+            this.guna2Panel3.TabIndex = 27;
+            this.buffTooltip.SetToolTip(this.guna2Panel3, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel3, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel3, "");
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label60, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label60, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label60.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label60.Location = new System.Drawing.Point(10, 36);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(271, 20);
+            this.label60.TabIndex = 26;
+            this.label60.Text = "Changes the speed the circles approach";
+            this.buffTooltip.SetToolTip(this.label60, "");
+            this.buffTooltip.SetToolTipIcon(this.label60, null);
+            this.buffTooltip.SetToolTipTitle(this.label60, "");
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label43, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label43.Font = new System.Drawing.Font("Segoe UI Semibold", 10.25F, System.Drawing.FontStyle.Bold);
+            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label43.Location = new System.Drawing.Point(350, 11);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(36, 19);
+            this.label43.TabIndex = 12;
+            this.label43.Text = "rate:";
+            this.buffTooltip.SetToolTip(this.label43, "");
+            this.buffTooltip.SetToolTipIcon(this.label43, null);
+            this.buffTooltip.SetToolTipTitle(this.label43, "");
+            // 
+            // ArChangerSwitch
+            // 
+            this.ArChangerSwitch.Animated = true;
+            this.ArChangerSwitch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.ArChangerSwitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.ArChangerSwitch.CheckedState.BorderRadius = 8;
+            this.ArChangerSwitch.CheckedState.BorderThickness = 0;
+            this.ArChangerSwitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.ArChangerSwitch.CheckedState.Parent = this.ArChangerSwitch;
+            this.ArChangerSwitch.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.trans1.SetDecoration(this.ArChangerSwitch, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.ArChangerSwitch, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.ArChangerSwitch.Location = new System.Drawing.Point(379, 68);
+            this.ArChangerSwitch.Name = "ArChangerSwitch";
+            this.ArChangerSwitch.ShadowDecoration.Parent = this.ArChangerSwitch;
+            this.ArChangerSwitch.Size = new System.Drawing.Size(17, 17);
+            this.ArChangerSwitch.TabIndex = 23;
+            this.buffTooltip.SetToolTip(this.ArChangerSwitch, "");
+            this.buffTooltip.SetToolTipIcon(this.ArChangerSwitch, null);
+            this.buffTooltip.SetToolTipTitle(this.ArChangerSwitch, "");
+            this.ArChangerSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.ArChangerSwitch.UncheckedState.BorderRadius = 8;
+            this.ArChangerSwitch.UncheckedState.BorderThickness = 1;
+            this.ArChangerSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.ArChangerSwitch.UncheckedState.Parent = this.ArChangerSwitch;
+            this.ArChangerSwitch.CheckedChanged += new System.EventHandler(this.ArChangerSwitch_CheckedChanged);
+            // 
+            // RateDisplay
+            // 
+            this.RateDisplay.AutoSize = true;
+            this.RateDisplay.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.RateDisplay, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.RateDisplay, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.RateDisplay.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.RateDisplay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.RateDisplay.Location = new System.Drawing.Point(382, 15);
+            this.RateDisplay.Name = "RateDisplay";
+            this.RateDisplay.Size = new System.Drawing.Size(13, 13);
+            this.RateDisplay.TabIndex = 6;
+            this.RateDisplay.Text = "3";
+            this.buffTooltip.SetToolTip(this.RateDisplay, "");
+            this.buffTooltip.SetToolTipIcon(this.RateDisplay, null);
+            this.buffTooltip.SetToolTipTitle(this.RateDisplay, "");
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label6, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label6, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(9, 11);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(200, 25);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Approach rate changer";
+            this.buffTooltip.SetToolTip(this.label6, "");
+            this.buffTooltip.SetToolTipIcon(this.label6, null);
+            this.buffTooltip.SetToolTipTitle(this.label6, "");
+            // 
+            // ArRate
+            // 
+            this.ArRate.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.ArRate, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.ArRate, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.ArRate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ArRate.HoverState.Parent = this.ArRate;
+            this.ArRate.Location = new System.Drawing.Point(14, 64);
+            this.ArRate.Maximum = 11;
+            this.ArRate.Name = "ArRate";
+            this.ArRate.Size = new System.Drawing.Size(337, 16);
+            this.ArRate.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
+            this.ArRate.TabIndex = 5;
+            this.ArRate.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.buffTooltip.SetToolTip(this.ArRate, "");
+            this.buffTooltip.SetToolTipIcon(this.ArRate, null);
+            this.buffTooltip.SetToolTipTitle(this.ArRate, "");
+            this.ArRate.Value = 3;
+            this.ArRate.ValueChanged += new System.EventHandler(this.Ar_Value);
+            this.ArRate.Scroll += new System.Windows.Forms.ScrollEventHandler(this.ArRate_Scroll);
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel2.BorderRadius = 10;
+            this.guna2Panel2.Controls.Add(this.label59);
+            this.guna2Panel2.Controls.Add(this.HPDrainRateChangerToggle);
+            this.guna2Panel2.Controls.Add(this.label3);
+            this.guna2Panel2.Controls.Add(this.HPDrainrateValue);
+            this.guna2Panel2.Controls.Add(this.HPDrainRateDisplay);
+            this.guna2Panel2.Controls.Add(this.label42);
+            this.trans1.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Panel2.Location = new System.Drawing.Point(51, 129);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(403, 92);
+            this.guna2Panel2.TabIndex = 26;
+            this.buffTooltip.SetToolTip(this.guna2Panel2, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel2, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel2, "");
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label59, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label59, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label59.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label59.Location = new System.Drawing.Point(10, 36);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(276, 20);
+            this.label59.TabIndex = 25;
+            this.label59.Text = "Changes the amount your hp goes down";
+            this.buffTooltip.SetToolTip(this.label59, "");
+            this.buffTooltip.SetToolTipIcon(this.label59, null);
+            this.buffTooltip.SetToolTipTitle(this.label59, "");
+            // 
+            // HPDrainRateChangerToggle
+            // 
+            this.HPDrainRateChangerToggle.Animated = true;
+            this.HPDrainRateChangerToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.HPDrainRateChangerToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.HPDrainRateChangerToggle.CheckedState.BorderRadius = 8;
+            this.HPDrainRateChangerToggle.CheckedState.BorderThickness = 0;
+            this.HPDrainRateChangerToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.HPDrainRateChangerToggle.CheckedState.Parent = this.HPDrainRateChangerToggle;
+            this.HPDrainRateChangerToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.trans1.SetDecoration(this.HPDrainRateChangerToggle, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.HPDrainRateChangerToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.HPDrainRateChangerToggle.Location = new System.Drawing.Point(379, 68);
+            this.HPDrainRateChangerToggle.Name = "HPDrainRateChangerToggle";
+            this.HPDrainRateChangerToggle.ShadowDecoration.Parent = this.HPDrainRateChangerToggle;
+            this.HPDrainRateChangerToggle.Size = new System.Drawing.Size(17, 17);
+            this.HPDrainRateChangerToggle.TabIndex = 22;
+            this.buffTooltip.SetToolTip(this.HPDrainRateChangerToggle, "");
+            this.buffTooltip.SetToolTipIcon(this.HPDrainRateChangerToggle, null);
+            this.buffTooltip.SetToolTipTitle(this.HPDrainRateChangerToggle, "");
+            this.HPDrainRateChangerToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.HPDrainRateChangerToggle.UncheckedState.BorderRadius = 8;
+            this.HPDrainRateChangerToggle.UncheckedState.BorderThickness = 1;
+            this.HPDrainRateChangerToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.HPDrainRateChangerToggle.UncheckedState.Parent = this.HPDrainRateChangerToggle;
+            this.HPDrainRateChangerToggle.CheckedChanged += new System.EventHandler(this.HPDrainRateChangerToggle_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(9, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(193, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "HP drain rate changer";
+            this.buffTooltip.SetToolTip(this.label3, "");
+            this.buffTooltip.SetToolTipIcon(this.label3, null);
+            this.buffTooltip.SetToolTipTitle(this.label3, "");
+            // 
+            // HPDrainrateValue
+            // 
+            this.HPDrainrateValue.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.HPDrainrateValue, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.HPDrainrateValue, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.HPDrainrateValue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.HPDrainrateValue.HoverState.Parent = this.HPDrainrateValue;
+            this.HPDrainrateValue.Location = new System.Drawing.Point(14, 64);
+            this.HPDrainrateValue.Maximum = 10;
+            this.HPDrainrateValue.Name = "HPDrainrateValue";
+            this.HPDrainrateValue.Size = new System.Drawing.Size(337, 16);
+            this.HPDrainrateValue.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
+            this.HPDrainrateValue.TabIndex = 5;
+            this.HPDrainrateValue.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.buffTooltip.SetToolTip(this.HPDrainrateValue, "");
+            this.buffTooltip.SetToolTipIcon(this.HPDrainrateValue, null);
+            this.buffTooltip.SetToolTipTitle(this.HPDrainrateValue, "");
+            this.HPDrainrateValue.Value = 0;
+            this.HPDrainrateValue.ValueChanged += new System.EventHandler(this.HP_Value);
+            this.HPDrainrateValue.Scroll += new System.Windows.Forms.ScrollEventHandler(this.HPDrainrateValue_Scroll);
+            // 
+            // HPDrainRateDisplay
+            // 
+            this.HPDrainRateDisplay.AutoSize = true;
+            this.HPDrainRateDisplay.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.HPDrainRateDisplay, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.HPDrainRateDisplay, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.HPDrainRateDisplay.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.HPDrainRateDisplay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.HPDrainRateDisplay.Location = new System.Drawing.Point(382, 15);
+            this.HPDrainRateDisplay.Name = "HPDrainRateDisplay";
+            this.HPDrainRateDisplay.Size = new System.Drawing.Size(13, 13);
+            this.HPDrainRateDisplay.TabIndex = 1;
+            this.HPDrainRateDisplay.Text = "0";
+            this.buffTooltip.SetToolTip(this.HPDrainRateDisplay, "");
+            this.buffTooltip.SetToolTipIcon(this.HPDrainRateDisplay, null);
+            this.buffTooltip.SetToolTipTitle(this.HPDrainRateDisplay, "");
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label42, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label42, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label42.Font = new System.Drawing.Font("Segoe UI Semibold", 10.25F, System.Drawing.FontStyle.Bold);
+            this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label42.Location = new System.Drawing.Point(350, 11);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(36, 19);
+            this.label42.TabIndex = 11;
+            this.label42.Text = "rate:";
+            this.buffTooltip.SetToolTip(this.label42, "");
+            this.buffTooltip.SetToolTipIcon(this.label42, null);
+            this.buffTooltip.SetToolTipTitle(this.label42, "");
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel1.BorderRadius = 10;
+            this.guna2Panel1.Controls.Add(this.CircleSizeDisplay);
+            this.guna2Panel1.Controls.Add(this.CircleSize);
+            this.guna2Panel1.Controls.Add(this.label1);
+            this.guna2Panel1.Controls.Add(this.label13);
+            this.guna2Panel1.Controls.Add(this.CSChangerToggle);
+            this.guna2Panel1.Controls.Add(this.label41);
+            this.trans1.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Panel1.Location = new System.Drawing.Point(51, 26);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.guna2Panel1.Size = new System.Drawing.Size(403, 92);
+            this.guna2Panel1.TabIndex = 25;
+            this.buffTooltip.SetToolTip(this.guna2Panel1, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel1, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel1, "");
+            // 
+            // CircleSizeDisplay
+            // 
+            this.CircleSizeDisplay.AutoSize = true;
+            this.CircleSizeDisplay.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.CircleSizeDisplay, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.CircleSizeDisplay, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.CircleSizeDisplay.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.CircleSizeDisplay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.CircleSizeDisplay.Location = new System.Drawing.Point(382, 15);
+            this.CircleSizeDisplay.Name = "CircleSizeDisplay";
+            this.CircleSizeDisplay.Size = new System.Drawing.Size(13, 13);
+            this.CircleSizeDisplay.TabIndex = 1;
+            this.CircleSizeDisplay.Text = "5";
+            this.buffTooltip.SetToolTip(this.CircleSizeDisplay, "");
+            this.buffTooltip.SetToolTipIcon(this.CircleSizeDisplay, null);
+            this.buffTooltip.SetToolTipTitle(this.CircleSizeDisplay, "");
+            // 
+            // CircleSize
+            // 
+            this.CircleSize.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.CircleSize, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.CircleSize, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.CircleSize.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.CircleSize.HoverState.Parent = this.CircleSize;
+            this.CircleSize.Location = new System.Drawing.Point(14, 64);
+            this.CircleSize.Maximum = 10;
+            this.CircleSize.Name = "CircleSize";
+            this.CircleSize.Size = new System.Drawing.Size(337, 16);
+            this.CircleSize.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
+            this.CircleSize.TabIndex = 5;
+            this.CircleSize.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.buffTooltip.SetToolTip(this.CircleSize, "");
+            this.buffTooltip.SetToolTipIcon(this.CircleSize, null);
+            this.buffTooltip.SetToolTipTitle(this.CircleSize, "");
+            this.CircleSize.Value = 5;
+            this.CircleSize.ValueChanged += new System.EventHandler(this.CS_Value);
+            this.CircleSize.Scroll += new System.Windows.Forms.ScrollEventHandler(this.CircleSize_Scroll);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label1.Location = new System.Drawing.Point(10, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(189, 20);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Changes the osu! circle size";
+            this.buffTooltip.SetToolTip(this.label1, "");
+            this.buffTooltip.SetToolTipIcon(this.label1, null);
+            this.buffTooltip.SetToolTipTitle(this.label1, "");
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label13, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label13, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(9, 11);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(165, 25);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Circle size changer";
+            this.buffTooltip.SetToolTip(this.label13, "");
+            this.buffTooltip.SetToolTipIcon(this.label13, null);
+            this.buffTooltip.SetToolTipTitle(this.label13, "");
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // CSChangerToggle
+            // 
+            this.CSChangerToggle.Animated = true;
+            this.CSChangerToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.CSChangerToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.CSChangerToggle.CheckedState.BorderRadius = 8;
+            this.CSChangerToggle.CheckedState.BorderThickness = 0;
+            this.CSChangerToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.CSChangerToggle.CheckedState.Parent = this.CSChangerToggle;
+            this.CSChangerToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.trans1.SetDecoration(this.CSChangerToggle, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.CSChangerToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.CSChangerToggle.Location = new System.Drawing.Point(379, 68);
+            this.CSChangerToggle.Name = "CSChangerToggle";
+            this.CSChangerToggle.ShadowDecoration.Parent = this.CSChangerToggle;
+            this.CSChangerToggle.Size = new System.Drawing.Size(17, 17);
+            this.CSChangerToggle.TabIndex = 21;
+            this.buffTooltip.SetToolTip(this.CSChangerToggle, "");
+            this.buffTooltip.SetToolTipIcon(this.CSChangerToggle, null);
+            this.buffTooltip.SetToolTipTitle(this.CSChangerToggle, "");
+            this.CSChangerToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.CSChangerToggle.UncheckedState.BorderRadius = 8;
+            this.CSChangerToggle.UncheckedState.BorderThickness = 1;
+            this.CSChangerToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.CSChangerToggle.UncheckedState.Parent = this.CSChangerToggle;
+            this.CSChangerToggle.CheckedChanged += new System.EventHandler(this.CSChangerToggle_CheckedChanged_1);
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label41, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label41, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label41.Font = new System.Drawing.Font("Segoe UI Semibold", 10.25F, System.Drawing.FontStyle.Bold);
+            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label41.Location = new System.Drawing.Point(351, 11);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(36, 19);
+            this.label41.TabIndex = 10;
+            this.label41.Text = "size:";
+            this.buffTooltip.SetToolTip(this.label41, "");
+            this.buffTooltip.SetToolTipIcon(this.label41, null);
+            this.buffTooltip.SetToolTipTitle(this.label41, "");
+            // 
             // LoginPage
             // 
             this.LoginPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
@@ -1307,7 +1352,7 @@ namespace Itami
             this.LoginPage.Location = new System.Drawing.Point(4, 4);
             this.LoginPage.Name = "LoginPage";
             this.LoginPage.Padding = new System.Windows.Forms.Padding(3);
-            this.LoginPage.Size = new System.Drawing.Size(520, 452);
+            this.LoginPage.Size = new System.Drawing.Size(520, 387);
             this.LoginPage.TabIndex = 0;
             this.LoginPage.Text = "LoginPage";
             this.buffTooltip.SetToolTip(this.LoginPage, "");
@@ -1330,7 +1375,7 @@ namespace Itami
             this.bunifuPanel1.Controls.Add(this.label5);
             this.trans.SetDecoration(this.bunifuPanel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.trans1.SetDecoration(this.bunifuPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.bunifuPanel1.Location = new System.Drawing.Point(84, 52);
+            this.bunifuPanel1.Location = new System.Drawing.Point(84, 25);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(352, 256);
@@ -1389,11 +1434,11 @@ namespace Itami
             this.username.DisabledState.Parent = this.username;
             this.username.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.username.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.username.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.username.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.username.FocusedState.Parent = this.username;
             this.username.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.username.ForeColor = System.Drawing.Color.White;
-            this.username.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.username.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.username.HoverState.Parent = this.username;
             this.username.Location = new System.Drawing.Point(40, 64);
             this.username.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -1425,11 +1470,11 @@ namespace Itami
             this.password.DisabledState.Parent = this.password;
             this.password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.password.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.password.FocusedState.Parent = this.password;
             this.password.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.password.ForeColor = System.Drawing.Color.White;
-            this.password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.password.HoverState.Parent = this.password;
             this.password.Location = new System.Drawing.Point(40, 139);
             this.password.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -1449,15 +1494,16 @@ namespace Itami
             // LoginButton
             // 
             this.LoginButton.Animated = true;
-            this.LoginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(46)))));
+            this.LoginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.LoginButton.BorderRadius = 9;
             this.LoginButton.CheckedState.Parent = this.LoginButton;
             this.LoginButton.CustomImages.Parent = this.LoginButton;
             this.trans1.SetDecoration(this.LoginButton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.LoginButton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.LoginButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.LoginButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.LoginButton.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.LoginButton.ForeColor = System.Drawing.Color.White;
+            this.LoginButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.LoginButton.HoverState.Parent = this.LoginButton;
             this.LoginButton.Location = new System.Drawing.Point(171, 174);
             this.LoginButton.Name = "LoginButton";
@@ -1498,7 +1544,7 @@ namespace Itami
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(520, 452);
+            this.tabPage2.Size = new System.Drawing.Size(520, 387);
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "Aim Assist";
             this.buffTooltip.SetToolTip(this.tabPage2, "");
@@ -1539,11 +1585,11 @@ namespace Itami
             this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button8.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button8.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button8.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Image = global::Itami.Properties.Resources.settings_10_32;
+            this.guna2Button8.Image = global::Itami.Properties.Resources.settings_10_64;
             this.guna2Button8.Location = new System.Drawing.Point(14, 60);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
@@ -1558,12 +1604,12 @@ namespace Itami
             // 
             this.AimAssistToggle.Animated = true;
             this.AimAssistToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.AimAssistToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimAssistToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.AimAssistToggle.CheckedState.BorderRadius = 8;
             this.AimAssistToggle.CheckedState.BorderThickness = 0;
-            this.AimAssistToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimAssistToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.AimAssistToggle.CheckedState.Parent = this.AimAssistToggle;
-            this.AimAssistToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimAssistToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.AimAssistToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.AimAssistToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.AimAssistToggle.Location = new System.Drawing.Point(379, 68);
@@ -1743,7 +1789,7 @@ namespace Itami
             this.aimWhen0.ItemForeColor = System.Drawing.Color.White;
             this.aimWhen0.ItemHeight = 20;
             this.aimWhen0.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.aimWhen0.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.aimWhen0.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.aimWhen0.Items.AddRange(new object[] {
             "Instant",
             "Hit50",
@@ -1813,7 +1859,7 @@ namespace Itami
             this.AimType.ItemForeColor = System.Drawing.Color.White;
             this.AimType.ItemHeight = 20;
             this.AimType.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.AimType.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimType.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.AimType.Items.AddRange(new object[] {
             "AimAssist"});
             this.AimType.ItemTopMargin = 3;
@@ -1859,7 +1905,7 @@ namespace Itami
             this.smoothA.Size = new System.Drawing.Size(353, 16);
             this.smoothA.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
             this.smoothA.TabIndex = 18;
-            this.smoothA.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.smoothA.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.buffTooltip.SetToolTip(this.smoothA, "");
             this.buffTooltip.SetToolTipIcon(this.smoothA, null);
             this.buffTooltip.SetToolTipTitle(this.smoothA, "");
@@ -1914,8 +1960,8 @@ namespace Itami
             this.guna2Button9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button9.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button9.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button9.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button9.HoverState.Parent = this.guna2Button9;
             this.guna2Button9.Location = new System.Drawing.Point(392, 6);
@@ -1959,7 +2005,7 @@ namespace Itami
             this.AimSpeedD.Size = new System.Drawing.Size(355, 16);
             this.AimSpeedD.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
             this.AimSpeedD.TabIndex = 9;
-            this.AimSpeedD.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimSpeedD.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.buffTooltip.SetToolTip(this.AimSpeedD, "");
             this.buffTooltip.SetToolTipIcon(this.AimSpeedD, null);
             this.buffTooltip.SetToolTipTitle(this.AimSpeedD, "");
@@ -2015,7 +2061,7 @@ namespace Itami
             this.AimStopDist.Size = new System.Drawing.Size(355, 16);
             this.AimStopDist.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
             this.AimStopDist.TabIndex = 11;
-            this.AimStopDist.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimStopDist.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.buffTooltip.SetToolTip(this.AimStopDist, "");
             this.buffTooltip.SetToolTipIcon(this.AimStopDist, null);
             this.buffTooltip.SetToolTipTitle(this.AimStopDist, "");
@@ -2088,7 +2134,7 @@ namespace Itami
             this.AimStrDist.Size = new System.Drawing.Size(355, 16);
             this.AimStrDist.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
             this.AimStrDist.TabIndex = 10;
-            this.AimStrDist.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimStrDist.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.buffTooltip.SetToolTip(this.AimStrDist, "");
             this.buffTooltip.SetToolTipIcon(this.AimStrDist, null);
             this.buffTooltip.SetToolTipTitle(this.AimStrDist, "");
@@ -2108,7 +2154,7 @@ namespace Itami
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(520, 452);
+            this.tabPage3.Size = new System.Drawing.Size(520, 387);
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Relax";
             this.buffTooltip.SetToolTip(this.tabPage3, "");
@@ -2148,8 +2194,8 @@ namespace Itami
             this.guna2Button13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button13.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button13.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button13.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button13.HoverState.Parent = this.guna2Button13;
             this.guna2Button13.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button13.Image")));
@@ -2201,12 +2247,12 @@ namespace Itami
             // 
             this.PredictionToggle.Animated = true;
             this.PredictionToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.PredictionToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PredictionToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PredictionToggle.CheckedState.BorderRadius = 8;
             this.PredictionToggle.CheckedState.BorderThickness = 0;
-            this.PredictionToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PredictionToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PredictionToggle.CheckedState.Parent = this.PredictionToggle;
-            this.PredictionToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PredictionToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PredictionToggle.Cursor = System.Windows.Forms.Cursors.Default;
             this.trans1.SetDecoration(this.PredictionToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.PredictionToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
@@ -2258,8 +2304,8 @@ namespace Itami
             this.guna2Button10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button10.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button10.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button10.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button10.HoverState.Parent = this.guna2Button10;
             this.guna2Button10.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button10.Image")));
@@ -2311,12 +2357,12 @@ namespace Itami
             // 
             this.RelaxToggle.Animated = true;
             this.RelaxToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.RelaxToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.RelaxToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.RelaxToggle.CheckedState.BorderRadius = 8;
             this.RelaxToggle.CheckedState.BorderThickness = 0;
-            this.RelaxToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.RelaxToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.RelaxToggle.CheckedState.Parent = this.RelaxToggle;
-            this.RelaxToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.RelaxToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.RelaxToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.RelaxToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.RelaxToggle.Location = new System.Drawing.Point(379, 68);
@@ -2418,7 +2464,7 @@ namespace Itami
             this.OffsetMin.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.OffsetMin.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.OffsetMin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.OffsetMin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.OffsetMin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.OffsetMin.FocusedState.Parent = this.OffsetMin;
             this.OffsetMin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OffsetMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -2475,7 +2521,7 @@ namespace Itami
             this.HoldTime.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.HoldTime.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.HoldTime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.HoldTime.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.HoldTime.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.HoldTime.FocusedState.Parent = this.HoldTime;
             this.HoldTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HoldTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -2525,8 +2571,8 @@ namespace Itami
             this.guna2Button11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button11.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button11.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button11.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button11.HoverState.Parent = this.guna2Button11;
             this.guna2Button11.Location = new System.Drawing.Point(392, 6);
@@ -2591,7 +2637,7 @@ namespace Itami
             this.PlayStyleDropDown.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.PlayStyleDropDown.ItemHeight = 19;
             this.PlayStyleDropDown.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.PlayStyleDropDown.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PlayStyleDropDown.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PlayStyleDropDown.Items.AddRange(new object[] {
             "SingleTap",
             "Alternate",
@@ -2643,7 +2689,7 @@ namespace Itami
             this.SecoundaryKey.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.SecoundaryKey.ItemHeight = 20;
             this.SecoundaryKey.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.SecoundaryKey.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.SecoundaryKey.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.SecoundaryKey.Items.AddRange(new object[] {
             "K1",
             "K2",
@@ -2694,7 +2740,7 @@ namespace Itami
             this.MaxSingleTapBPMN.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.MaxSingleTapBPMN.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.MaxSingleTapBPMN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.MaxSingleTapBPMN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.MaxSingleTapBPMN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.MaxSingleTapBPMN.FocusedState.Parent = this.MaxSingleTapBPMN;
             this.MaxSingleTapBPMN.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaxSingleTapBPMN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -2753,7 +2799,7 @@ namespace Itami
             this.PrimaryKeyDrop.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.PrimaryKeyDrop.ItemHeight = 20;
             this.PrimaryKeyDrop.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.PrimaryKeyDrop.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PrimaryKeyDrop.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PrimaryKeyDrop.Items.AddRange(new object[] {
             "K1",
             "K2",
@@ -2821,7 +2867,7 @@ namespace Itami
             this.OffsetMax.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.OffsetMax.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.OffsetMax.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.OffsetMax.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.OffsetMax.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.OffsetMax.FocusedState.Parent = this.OffsetMax;
             this.OffsetMax.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OffsetMax.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -2902,12 +2948,12 @@ namespace Itami
             // 
             this.MissAfterHit50.Animated = true;
             this.MissAfterHit50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.MissAfterHit50.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.MissAfterHit50.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.MissAfterHit50.CheckedState.BorderRadius = 8;
             this.MissAfterHit50.CheckedState.BorderThickness = 0;
-            this.MissAfterHit50.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.MissAfterHit50.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.MissAfterHit50.CheckedState.Parent = this.MissAfterHit50;
-            this.MissAfterHit50.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.MissAfterHit50.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.MissAfterHit50, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.MissAfterHit50, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.MissAfterHit50.Location = new System.Drawing.Point(37, 247);
@@ -2955,7 +3001,7 @@ namespace Itami
             this.MissRadius.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.MissRadius.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.MissRadius.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.MissRadius.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.MissRadius.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.MissRadius.FocusedState.Parent = this.MissRadius;
             this.MissRadius.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MissRadius.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -3028,8 +3074,8 @@ namespace Itami
             this.guna2Button14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button14.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button14.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button14.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button14.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button14.HoverState.Parent = this.guna2Button14;
             this.guna2Button14.Location = new System.Drawing.Point(392, 6);
@@ -3093,7 +3139,7 @@ namespace Itami
             this.Predictiondirectionangletolerance.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.Predictiondirectionangletolerance.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.Predictiondirectionangletolerance.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.Predictiondirectionangletolerance.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.Predictiondirectionangletolerance.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.Predictiondirectionangletolerance.FocusedState.Parent = this.Predictiondirectionangletolerance;
             this.Predictiondirectionangletolerance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Predictiondirectionangletolerance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -3184,7 +3230,7 @@ namespace Itami
             this.PredictionRadiusScale.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.PredictionRadiusScale.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.PredictionRadiusScale.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.PredictionRadiusScale.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PredictionRadiusScale.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PredictionRadiusScale.FocusedState.Parent = this.PredictionRadiusScale;
             this.PredictionRadiusScale.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PredictionRadiusScale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -3224,7 +3270,7 @@ namespace Itami
             this.MissChance.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.MissChance.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.MissChance.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.MissChance.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.MissChance.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.MissChance.FocusedState.Parent = this.MissChance;
             this.MissChance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MissChance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -3264,7 +3310,7 @@ namespace Itami
             this.PredictionMaxDistance.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
             this.PredictionMaxDistance.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.PredictionMaxDistance.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.PredictionMaxDistance.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.PredictionMaxDistance.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.PredictionMaxDistance.FocusedState.Parent = this.PredictionMaxDistance;
             this.PredictionMaxDistance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PredictionMaxDistance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
@@ -3301,7 +3347,7 @@ namespace Itami
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(520, 452);
+            this.tabPage4.Size = new System.Drawing.Size(520, 387);
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Settings";
             this.buffTooltip.SetToolTip(this.tabPage4, "");
@@ -3340,11 +3386,11 @@ namespace Itami
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = global::Itami.Properties.Resources.settings_10_32;
+            this.guna2Button4.Image = global::Itami.Properties.Resources.settings_10_64;
             this.guna2Button4.Location = new System.Drawing.Point(14, 60);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
@@ -3446,12 +3492,12 @@ namespace Itami
             // 
             this.ScreenShareProtectToggle.Animated = true;
             this.ScreenShareProtectToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ScreenShareProtectToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.ScreenShareProtectToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.ScreenShareProtectToggle.CheckedState.BorderRadius = 8;
             this.ScreenShareProtectToggle.CheckedState.BorderThickness = 0;
-            this.ScreenShareProtectToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.ScreenShareProtectToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.ScreenShareProtectToggle.CheckedState.Parent = this.ScreenShareProtectToggle;
-            this.ScreenShareProtectToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.ScreenShareProtectToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.ScreenShareProtectToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.ScreenShareProtectToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.ScreenShareProtectToggle.Location = new System.Drawing.Point(379, 68);
@@ -3526,12 +3572,12 @@ namespace Itami
             // 
             this.BlantanrModeToggle.Animated = true;
             this.BlantanrModeToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.BlantanrModeToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.BlantanrModeToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.BlantanrModeToggle.CheckedState.BorderRadius = 8;
             this.BlantanrModeToggle.CheckedState.BorderThickness = 0;
-            this.BlantanrModeToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.BlantanrModeToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.BlantanrModeToggle.CheckedState.Parent = this.BlantanrModeToggle;
-            this.BlantanrModeToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.BlantanrModeToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.BlantanrModeToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.BlantanrModeToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.BlantanrModeToggle.Location = new System.Drawing.Point(379, 68);
@@ -3607,10 +3653,10 @@ namespace Itami
             this.CustomTit.DisabledState.Parent = this.CustomTit;
             this.CustomTit.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.CustomTit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.CustomTit.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.CustomTit.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.CustomTit.FocusedState.Parent = this.CustomTit;
             this.CustomTit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.CustomTit.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.CustomTit.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.CustomTit.HoverState.Parent = this.CustomTit;
             this.CustomTit.Location = new System.Drawing.Point(41, 82);
             this.CustomTit.Name = "CustomTit";
@@ -3672,8 +3718,8 @@ namespace Itami
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.Parent = this.guna2Button3;
             this.guna2Button3.Location = new System.Drawing.Point(392, 6);
@@ -3690,16 +3736,16 @@ namespace Itami
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.tabPage5.Controls.Add(this.warpsettings);
             this.tabPage5.Controls.Add(this.guna2Panel12);
             this.tabPage5.Controls.Add(this.guna2Panel11);
+            this.tabPage5.Controls.Add(this.warpsettings);
             this.tabPage5.Controls.Add(this.accsettings);
             this.trans.SetDecoration(this.tabPage5, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.trans1.SetDecoration(this.tabPage5, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage5.Location = new System.Drawing.Point(4, 4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(520, 452);
+            this.tabPage5.Size = new System.Drawing.Size(520, 387);
             this.tabPage5.TabIndex = 6;
             this.tabPage5.Text = "Lmao";
             this.buffTooltip.SetToolTip(this.tabPage5, "");
@@ -3738,8 +3784,8 @@ namespace Itami
             this.guna2Button16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button16.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button16.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button16.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button16.HoverState.Parent = this.guna2Button16;
             this.guna2Button16.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button16.Image")));
@@ -3820,8 +3866,8 @@ namespace Itami
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.HoverState.Parent = this.guna2Button5;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
@@ -3856,12 +3902,12 @@ namespace Itami
             // 
             this.TimewarpToggle.Animated = true;
             this.TimewarpToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.TimewarpToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.TimewarpToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.TimewarpToggle.CheckedState.BorderRadius = 8;
             this.TimewarpToggle.CheckedState.BorderThickness = 0;
-            this.TimewarpToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.TimewarpToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.TimewarpToggle.CheckedState.Parent = this.TimewarpToggle;
-            this.TimewarpToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.TimewarpToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.TimewarpToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.TimewarpToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.TimewarpToggle.Location = new System.Drawing.Point(379, 68);
@@ -3953,7 +3999,7 @@ namespace Itami
             this.TimwWarpRate.Size = new System.Drawing.Size(355, 16);
             this.TimwWarpRate.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
             this.TimwWarpRate.TabIndex = 14;
-            this.TimwWarpRate.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.TimwWarpRate.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.buffTooltip.SetToolTip(this.TimwWarpRate, "");
             this.buffTooltip.SetToolTipIcon(this.TimwWarpRate, null);
             this.buffTooltip.SetToolTipTitle(this.TimwWarpRate, "");
@@ -4098,7 +4144,7 @@ namespace Itami
             this.trans1.SetDecoration(this.version, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.version, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.version.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.version.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.version.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.version.Location = new System.Drawing.Point(159, 117);
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(61, 21);
@@ -4128,12 +4174,12 @@ namespace Itami
             // 
             this.guna2CustomCheckBox1.Animated = true;
             this.guna2CustomCheckBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2CustomCheckBox1.CheckedState.BorderRadius = 8;
             this.guna2CustomCheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2CustomCheckBox1.CheckedState.Parent = this.guna2CustomCheckBox1;
-            this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.guna2CustomCheckBox1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.guna2CustomCheckBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.guna2CustomCheckBox1.Location = new System.Drawing.Point(45, 152);
@@ -4158,7 +4204,7 @@ namespace Itami
             this.trans1.SetDecoration(this.label52, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.label52, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.label52.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.label52.Location = new System.Drawing.Point(145, 226);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(19, 21);
@@ -4227,7 +4273,7 @@ namespace Itami
             this.trans1.SetDecoration(this.ip, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.ip, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.ip.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.ip.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.ip.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.ip.Location = new System.Drawing.Point(63, 201);
             this.ip.Name = "ip";
             this.ip.Size = new System.Drawing.Size(19, 21);
@@ -4250,8 +4296,8 @@ namespace Itami
             this.guna2Button17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button17.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button17.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button17.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button17.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button17.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button17.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button17.HoverState.Parent = this.guna2Button17;
             this.guna2Button17.Location = new System.Drawing.Point(392, 6);
@@ -4306,7 +4352,7 @@ namespace Itami
             this.trans1.SetDecoration(this.hwid, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.hwid, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.hwid.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.hwid.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.hwid.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.hwid.Location = new System.Drawing.Point(91, 177);
             this.hwid.Name = "hwid";
             this.hwid.Size = new System.Drawing.Size(19, 21);
@@ -4357,7 +4403,7 @@ namespace Itami
             this.trans1.SetDecoration(this.key, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.key, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.key.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.key.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.key.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.key.Location = new System.Drawing.Point(143, 65);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(85, 21);
@@ -4375,7 +4421,7 @@ namespace Itami
             this.trans1.SetDecoration(this.subscriptionDaysLabel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.subscriptionDaysLabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.subscriptionDaysLabel.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.subscriptionDaysLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.subscriptionDaysLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.subscriptionDaysLabel.Location = new System.Drawing.Point(163, 91);
             this.subscriptionDaysLabel.Name = "subscriptionDaysLabel";
             this.subscriptionDaysLabel.Size = new System.Drawing.Size(131, 21);
@@ -4396,7 +4442,7 @@ namespace Itami
             this.tabPage6.Location = new System.Drawing.Point(4, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(520, 452);
+            this.tabPage6.Size = new System.Drawing.Size(520, 387);
             this.tabPage6.TabIndex = 7;
             this.tabPage6.Text = "DLLInjectGUI";
             this.buffTooltip.SetToolTip(this.tabPage6, "");
@@ -4474,19 +4520,100 @@ namespace Itami
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.tabPage1.Controls.Add(this.configsettings);
             this.tabPage1.Controls.Add(this.guna2Panel14);
+            this.tabPage1.Controls.Add(this.configsettings);
             this.trans.SetDecoration(this.tabPage1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.trans1.SetDecoration(this.tabPage1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(520, 452);
+            this.tabPage1.Size = new System.Drawing.Size(520, 387);
             this.tabPage1.TabIndex = 8;
             this.tabPage1.Text = "Configs";
             this.buffTooltip.SetToolTip(this.tabPage1, "");
             this.buffTooltip.SetToolTipIcon(this.tabPage1, null);
             this.buffTooltip.SetToolTipTitle(this.tabPage1, "");
+            // 
+            // guna2Panel14
+            // 
+            this.guna2Panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel14.BorderRadius = 10;
+            this.guna2Panel14.Controls.Add(this.guna2Button20);
+            this.guna2Panel14.Controls.Add(this.label89);
+            this.guna2Panel14.Controls.Add(this.label90);
+            this.trans1.SetDecoration(this.guna2Panel14, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel14, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Panel14.Location = new System.Drawing.Point(51, 26);
+            this.guna2Panel14.Name = "guna2Panel14";
+            this.guna2Panel14.ShadowDecoration.Parent = this.guna2Panel14;
+            this.guna2Panel14.Size = new System.Drawing.Size(403, 92);
+            this.guna2Panel14.TabIndex = 27;
+            this.buffTooltip.SetToolTip(this.guna2Panel14, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel14, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel14, "");
+            // 
+            // guna2Button20
+            // 
+            this.guna2Button20.Animated = true;
+            this.guna2Button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button20.BorderRadius = 2;
+            this.guna2Button20.CheckedState.Parent = this.guna2Button20;
+            this.guna2Button20.CustomImages.Parent = this.guna2Button20;
+            this.trans1.SetDecoration(this.guna2Button20, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Button20, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Button20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.guna2Button20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button20.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button20.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button20.HoverState.Parent = this.guna2Button20;
+            this.guna2Button20.Image = global::Itami.Properties.Resources.settings_10_64;
+            this.guna2Button20.Location = new System.Drawing.Point(14, 60);
+            this.guna2Button20.Name = "guna2Button20";
+            this.guna2Button20.ShadowDecoration.Parent = this.guna2Button20;
+            this.guna2Button20.Size = new System.Drawing.Size(25, 25);
+            this.guna2Button20.TabIndex = 27;
+            this.buffTooltip.SetToolTip(this.guna2Button20, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Button20, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Button20, "");
+            this.guna2Button20.Click += new System.EventHandler(this.guna2Button20_Click);
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label89, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label89, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label89.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label89.Location = new System.Drawing.Point(10, 36);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(216, 20);
+            this.label89.TabIndex = 24;
+            this.label89.Text = "Load your saved configurations";
+            this.buffTooltip.SetToolTip(this.label89, "");
+            this.buffTooltip.SetToolTipIcon(this.label89, null);
+            this.buffTooltip.SetToolTipTitle(this.label89, "");
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label90, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label90, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label90.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label90.ForeColor = System.Drawing.Color.White;
+            this.label90.Location = new System.Drawing.Point(9, 11);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(136, 25);
+            this.label90.TabIndex = 2;
+            this.label90.Text = "Configurations";
+            this.buffTooltip.SetToolTip(this.label90, "");
+            this.buffTooltip.SetToolTipIcon(this.label90, null);
+            this.buffTooltip.SetToolTipTitle(this.label90, "");
             // 
             // configsettings
             // 
@@ -4533,10 +4660,10 @@ namespace Itami
             this.configName.DisabledState.Parent = this.configName;
             this.configName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.configName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.configName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.configName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.configName.FocusedState.Parent = this.configName;
             this.configName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.configName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.configName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.configName.HoverState.Parent = this.configName;
             this.configName.Location = new System.Drawing.Point(37, 150);
             this.configName.Name = "configName";
@@ -4581,7 +4708,7 @@ namespace Itami
             this.savBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.savBtn.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.savBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.savBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.savBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.savBtn.HoverState.Parent = this.savBtn;
             this.savBtn.Location = new System.Drawing.Point(334, 150);
             this.savBtn.Name = "savBtn";
@@ -4641,8 +4768,8 @@ namespace Itami
             this.guna2Button21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button21.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button21.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button21.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button21.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button21.HoverState.Parent = this.guna2Button21;
             this.guna2Button21.Location = new System.Drawing.Point(392, 6);
@@ -4687,7 +4814,7 @@ namespace Itami
             this.LoadConfig.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.LoadConfig.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.LoadConfig.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.LoadConfig.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.LoadConfig.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.LoadConfig.HoverState.Parent = this.LoadConfig;
             this.LoadConfig.Location = new System.Drawing.Point(334, 85);
             this.LoadConfig.Name = "LoadConfig";
@@ -4734,7 +4861,7 @@ namespace Itami
             this.configList.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
             this.configList.ItemHeight = 27;
             this.configList.ItemHighLightColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.configList.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.configList.ItemHighLightForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.configList.Items.AddRange(new object[] {
             ""});
             this.configList.ItemTopMargin = 3;
@@ -4749,103 +4876,131 @@ namespace Itami
             this.buffTooltip.SetToolTipIcon(this.configList, null);
             this.buffTooltip.SetToolTipTitle(this.configList, "");
             // 
-            // guna2Panel14
-            // 
-            this.guna2Panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Panel14.BorderRadius = 10;
-            this.guna2Panel14.Controls.Add(this.guna2Button20);
-            this.guna2Panel14.Controls.Add(this.label89);
-            this.guna2Panel14.Controls.Add(this.label90);
-            this.trans1.SetDecoration(this.guna2Panel14, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Panel14, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Panel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Panel14.Location = new System.Drawing.Point(51, 26);
-            this.guna2Panel14.Name = "guna2Panel14";
-            this.guna2Panel14.ShadowDecoration.Parent = this.guna2Panel14;
-            this.guna2Panel14.Size = new System.Drawing.Size(403, 92);
-            this.guna2Panel14.TabIndex = 27;
-            this.buffTooltip.SetToolTip(this.guna2Panel14, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Panel14, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Panel14, "");
-            // 
-            // guna2Button20
-            // 
-            this.guna2Button20.Animated = true;
-            this.guna2Button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button20.BorderRadius = 2;
-            this.guna2Button20.CheckedState.Parent = this.guna2Button20;
-            this.guna2Button20.CustomImages.Parent = this.guna2Button20;
-            this.trans1.SetDecoration(this.guna2Button20, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Button20, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Button20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button20.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button20.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button20.HoverState.Parent = this.guna2Button20;
-            this.guna2Button20.Image = global::Itami.Properties.Resources.settings_10_32;
-            this.guna2Button20.Location = new System.Drawing.Point(14, 60);
-            this.guna2Button20.Name = "guna2Button20";
-            this.guna2Button20.ShadowDecoration.Parent = this.guna2Button20;
-            this.guna2Button20.Size = new System.Drawing.Size(25, 25);
-            this.guna2Button20.TabIndex = 27;
-            this.buffTooltip.SetToolTip(this.guna2Button20, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Button20, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Button20, "");
-            this.guna2Button20.Click += new System.EventHandler(this.guna2Button20_Click);
-            // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label89, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label89, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label89.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.label89.Location = new System.Drawing.Point(10, 36);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(216, 20);
-            this.label89.TabIndex = 24;
-            this.label89.Text = "Load your saved configurations";
-            this.buffTooltip.SetToolTip(this.label89, "");
-            this.buffTooltip.SetToolTipIcon(this.label89, null);
-            this.buffTooltip.SetToolTipTitle(this.label89, "");
-            // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label90, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label90, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label90.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label90.ForeColor = System.Drawing.Color.White;
-            this.label90.Location = new System.Drawing.Point(9, 11);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(136, 25);
-            this.label90.TabIndex = 2;
-            this.label90.Text = "Configurations";
-            this.buffTooltip.SetToolTip(this.label90, "");
-            this.buffTooltip.SetToolTipIcon(this.label90, null);
-            this.buffTooltip.SetToolTipTitle(this.label90, "");
-            // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.tabPage7.Controls.Add(this.repsettings);
             this.tabPage7.Controls.Add(this.guna2Panel15);
+            this.tabPage7.Controls.Add(this.repsettings);
             this.trans.SetDecoration(this.tabPage7, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.trans1.SetDecoration(this.tabPage7, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tabPage7.Location = new System.Drawing.Point(4, 4);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(520, 452);
+            this.tabPage7.Size = new System.Drawing.Size(520, 387);
             this.tabPage7.TabIndex = 9;
             this.tabPage7.Text = "ReplayBot";
             this.buffTooltip.SetToolTip(this.tabPage7, "");
             this.buffTooltip.SetToolTipIcon(this.tabPage7, null);
             this.buffTooltip.SetToolTipTitle(this.tabPage7, "");
+            // 
+            // guna2Panel15
+            // 
+            this.guna2Panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2Panel15.BorderRadius = 10;
+            this.guna2Panel15.Controls.Add(this.guna2Button22);
+            this.guna2Panel15.Controls.Add(this.label48);
+            this.guna2Panel15.Controls.Add(this.label66);
+            this.guna2Panel15.Controls.Add(this.ReplayBotToggle);
+            this.trans1.SetDecoration(this.guna2Panel15, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Panel15, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Panel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Panel15.Location = new System.Drawing.Point(51, 26);
+            this.guna2Panel15.Name = "guna2Panel15";
+            this.guna2Panel15.ShadowDecoration.Parent = this.guna2Panel15;
+            this.guna2Panel15.Size = new System.Drawing.Size(403, 92);
+            this.guna2Panel15.TabIndex = 39;
+            this.buffTooltip.SetToolTip(this.guna2Panel15, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Panel15, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Panel15, "");
+            // 
+            // guna2Button22
+            // 
+            this.guna2Button22.Animated = true;
+            this.guna2Button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button22.BorderRadius = 2;
+            this.guna2Button22.CheckedState.Parent = this.guna2Button22;
+            this.guna2Button22.CustomImages.Parent = this.guna2Button22;
+            this.trans1.SetDecoration(this.guna2Button22, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.guna2Button22, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.guna2Button22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.guna2Button22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.guna2Button22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button22.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button22.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button22.HoverState.Parent = this.guna2Button22;
+            this.guna2Button22.Image = global::Itami.Properties.Resources.settings_10_64;
+            this.guna2Button22.Location = new System.Drawing.Point(14, 60);
+            this.guna2Button22.Name = "guna2Button22";
+            this.guna2Button22.ShadowDecoration.Parent = this.guna2Button22;
+            this.guna2Button22.Size = new System.Drawing.Size(25, 25);
+            this.guna2Button22.TabIndex = 27;
+            this.buffTooltip.SetToolTip(this.guna2Button22, "");
+            this.buffTooltip.SetToolTipIcon(this.guna2Button22, null);
+            this.buffTooltip.SetToolTipTitle(this.guna2Button22, "");
+            this.guna2Button22.Click += new System.EventHandler(this.guna2Button22_Click);
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label48, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label48.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label48.Location = new System.Drawing.Point(10, 36);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(170, 20);
+            this.label48.TabIndex = 24;
+            this.label48.Text = "Copys replays gameplay";
+            this.buffTooltip.SetToolTip(this.label48, "");
+            this.buffTooltip.SetToolTipIcon(this.label48, null);
+            this.buffTooltip.SetToolTipTitle(this.label48, "");
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.BackColor = System.Drawing.Color.Transparent;
+            this.trans1.SetDecoration(this.label66, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.label66, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label66.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
+            this.label66.ForeColor = System.Drawing.Color.White;
+            this.label66.Location = new System.Drawing.Point(9, 11);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(124, 25);
+            this.label66.TabIndex = 2;
+            this.label66.Text = "Replay copier";
+            this.buffTooltip.SetToolTip(this.label66, "");
+            this.buffTooltip.SetToolTipIcon(this.label66, null);
+            this.buffTooltip.SetToolTipTitle(this.label66, "");
+            // 
+            // ReplayBotToggle
+            // 
+            this.ReplayBotToggle.Animated = true;
+            this.ReplayBotToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.ReplayBotToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.ReplayBotToggle.CheckedState.BorderRadius = 8;
+            this.ReplayBotToggle.CheckedState.BorderThickness = 0;
+            this.ReplayBotToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.ReplayBotToggle.CheckedState.Parent = this.ReplayBotToggle;
+            this.ReplayBotToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.trans1.SetDecoration(this.ReplayBotToggle, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.trans.SetDecoration(this.ReplayBotToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.ReplayBotToggle.Location = new System.Drawing.Point(379, 68);
+            this.ReplayBotToggle.Name = "ReplayBotToggle";
+            this.ReplayBotToggle.ShadowDecoration.Parent = this.ReplayBotToggle;
+            this.ReplayBotToggle.Size = new System.Drawing.Size(17, 17);
+            this.ReplayBotToggle.TabIndex = 37;
+            this.buffTooltip.SetToolTip(this.ReplayBotToggle, "");
+            this.buffTooltip.SetToolTipIcon(this.ReplayBotToggle, null);
+            this.buffTooltip.SetToolTipTitle(this.ReplayBotToggle, "");
+            this.ReplayBotToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.ReplayBotToggle.UncheckedState.BorderRadius = 8;
+            this.ReplayBotToggle.UncheckedState.BorderThickness = 1;
+            this.ReplayBotToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
+            this.ReplayBotToggle.UncheckedState.Parent = this.ReplayBotToggle;
+            this.ReplayBotToggle.CheckedChanged += new System.EventHandler(this.ReplayBotToggle_CheckedChanged);
             // 
             // repsettings
             // 
@@ -4879,12 +5034,12 @@ namespace Itami
             // 
             this.FlipToggle.Animated = true;
             this.FlipToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.FlipToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.FlipToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.FlipToggle.CheckedState.BorderRadius = 8;
             this.FlipToggle.CheckedState.BorderThickness = 0;
-            this.FlipToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.FlipToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.FlipToggle.CheckedState.Parent = this.FlipToggle;
-            this.FlipToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.FlipToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.trans1.SetDecoration(this.FlipToggle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.FlipToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.FlipToggle.Location = new System.Drawing.Point(45, 134);
@@ -4935,10 +5090,10 @@ namespace Itami
             this.replayPath.DisabledState.Parent = this.replayPath;
             this.replayPath.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.replayPath.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.replayPath.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.replayPath.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.replayPath.FocusedState.Parent = this.replayPath;
             this.replayPath.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.replayPath.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.replayPath.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.replayPath.HoverState.Parent = this.replayPath;
             this.replayPath.Location = new System.Drawing.Point(30, 85);
             this.replayPath.Name = "replayPath";
@@ -4968,7 +5123,7 @@ namespace Itami
             this.ChooseReplayPath.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.ChooseReplayPath.Font = new System.Drawing.Font("Segoe UI", 9.25F);
             this.ChooseReplayPath.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.ChooseReplayPath.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.ChooseReplayPath.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.ChooseReplayPath.HoverState.Parent = this.ChooseReplayPath;
             this.ChooseReplayPath.Location = new System.Drawing.Point(327, 85);
             this.ChooseReplayPath.Name = "ChooseReplayPath";
@@ -5026,8 +5181,8 @@ namespace Itami
             this.guna2Button24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.guna2Button24.Font = new System.Drawing.Font("Segoe UI", 13.25F);
             this.guna2Button24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2Button24.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button24.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button24.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.guna2Button24.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button24.HoverState.ForeColor = System.Drawing.Color.White;
             this.guna2Button24.HoverState.Parent = this.guna2Button24;
             this.guna2Button24.Location = new System.Drawing.Point(392, 6);
@@ -5058,115 +5213,6 @@ namespace Itami
             this.buffTooltip.SetToolTipIcon(this.label91, null);
             this.buffTooltip.SetToolTipTitle(this.label91, "");
             // 
-            // guna2Panel15
-            // 
-            this.guna2Panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Panel15.BorderRadius = 10;
-            this.guna2Panel15.Controls.Add(this.guna2Button22);
-            this.guna2Panel15.Controls.Add(this.label48);
-            this.guna2Panel15.Controls.Add(this.label66);
-            this.guna2Panel15.Controls.Add(this.ReplayBotToggle);
-            this.trans1.SetDecoration(this.guna2Panel15, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Panel15, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Panel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Panel15.Location = new System.Drawing.Point(51, 26);
-            this.guna2Panel15.Name = "guna2Panel15";
-            this.guna2Panel15.ShadowDecoration.Parent = this.guna2Panel15;
-            this.guna2Panel15.Size = new System.Drawing.Size(403, 92);
-            this.guna2Panel15.TabIndex = 39;
-            this.buffTooltip.SetToolTip(this.guna2Panel15, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Panel15, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Panel15, "");
-            // 
-            // guna2Button22
-            // 
-            this.guna2Button22.Animated = true;
-            this.guna2Button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button22.BorderRadius = 2;
-            this.guna2Button22.CheckedState.Parent = this.guna2Button22;
-            this.guna2Button22.CustomImages.Parent = this.guna2Button22;
-            this.trans1.SetDecoration(this.guna2Button22, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Button22, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Button22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.guna2Button22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button22.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button22.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button22.HoverState.Parent = this.guna2Button22;
-            this.guna2Button22.Image = global::Itami.Properties.Resources.settings_10_32;
-            this.guna2Button22.Location = new System.Drawing.Point(14, 60);
-            this.guna2Button22.Name = "guna2Button22";
-            this.guna2Button22.ShadowDecoration.Parent = this.guna2Button22;
-            this.guna2Button22.Size = new System.Drawing.Size(25, 25);
-            this.guna2Button22.TabIndex = 27;
-            this.buffTooltip.SetToolTip(this.guna2Button22, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Button22, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Button22, "");
-            this.guna2Button22.Click += new System.EventHandler(this.guna2Button22_Click);
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label48, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label48.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.label48.Location = new System.Drawing.Point(10, 36);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(170, 20);
-            this.label48.TabIndex = 24;
-            this.label48.Text = "Copys replays gameplay";
-            this.buffTooltip.SetToolTip(this.label48, "");
-            this.buffTooltip.SetToolTipIcon(this.label48, null);
-            this.buffTooltip.SetToolTipTitle(this.label48, "");
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.Transparent;
-            this.trans1.SetDecoration(this.label66, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.label66, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label66.Font = new System.Drawing.Font("Segoe UI Semibold", 13.25F, System.Drawing.FontStyle.Bold);
-            this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Location = new System.Drawing.Point(9, 11);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(124, 25);
-            this.label66.TabIndex = 2;
-            this.label66.Text = "Replay copier";
-            this.buffTooltip.SetToolTip(this.label66, "");
-            this.buffTooltip.SetToolTipIcon(this.label66, null);
-            this.buffTooltip.SetToolTipTitle(this.label66, "");
-            // 
-            // ReplayBotToggle
-            // 
-            this.ReplayBotToggle.Animated = true;
-            this.ReplayBotToggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.ReplayBotToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.ReplayBotToggle.CheckedState.BorderRadius = 8;
-            this.ReplayBotToggle.CheckedState.BorderThickness = 0;
-            this.ReplayBotToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.ReplayBotToggle.CheckedState.Parent = this.ReplayBotToggle;
-            this.ReplayBotToggle.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.trans1.SetDecoration(this.ReplayBotToggle, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.ReplayBotToggle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.ReplayBotToggle.Location = new System.Drawing.Point(379, 68);
-            this.ReplayBotToggle.Name = "ReplayBotToggle";
-            this.ReplayBotToggle.ShadowDecoration.Parent = this.ReplayBotToggle;
-            this.ReplayBotToggle.Size = new System.Drawing.Size(17, 17);
-            this.ReplayBotToggle.TabIndex = 37;
-            this.buffTooltip.SetToolTip(this.ReplayBotToggle, "");
-            this.buffTooltip.SetToolTipIcon(this.ReplayBotToggle, null);
-            this.buffTooltip.SetToolTipTitle(this.ReplayBotToggle, "");
-            this.ReplayBotToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.ReplayBotToggle.UncheckedState.BorderRadius = 8;
-            this.ReplayBotToggle.UncheckedState.BorderThickness = 1;
-            this.ReplayBotToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
-            this.ReplayBotToggle.UncheckedState.Parent = this.ReplayBotToggle;
-            this.ReplayBotToggle.CheckedChanged += new System.EventHandler(this.ReplayBotToggle_CheckedChanged);
-            // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
@@ -5178,7 +5224,7 @@ namespace Itami
             this.tabPage8.Location = new System.Drawing.Point(4, 4);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(520, 452);
+            this.tabPage8.Size = new System.Drawing.Size(520, 387);
             this.tabPage8.TabIndex = 10;
             this.tabPage8.Text = "home";
             this.buffTooltip.SetToolTip(this.tabPage8, "");
@@ -5261,7 +5307,7 @@ namespace Itami
             this.guna1.BorderRadius = 4;
             this.trans1.SetDecoration(this.guna1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.guna1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna1.Location = new System.Drawing.Point(468, 0);
             this.guna1.Name = "guna1";
             this.guna1.ShadowDecoration.Parent = this.guna1;
@@ -5362,7 +5408,7 @@ namespace Itami
             this.guna2Button18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.guna2Button18.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button18.ForeColor = System.Drawing.Color.White;
-            this.guna2Button18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2Button18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2Button18.HoverState.Parent = this.guna2Button18;
             this.guna2Button18.Location = new System.Drawing.Point(39, 64);
             this.guna2Button18.Name = "guna2Button18";
@@ -5397,7 +5443,7 @@ namespace Itami
             this.guna2.BorderRadius = 4;
             this.trans1.SetDecoration(this.guna2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.guna2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.guna2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.guna2.Location = new System.Drawing.Point(7, 0);
             this.guna2.Name = "guna2";
             this.guna2.ShadowDecoration.Parent = this.guna2;
@@ -5424,46 +5470,18 @@ namespace Itami
             this.buffTooltip.SetToolTipIcon(this.label69, null);
             this.buffTooltip.SetToolTipTitle(this.label69, "");
             // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.guna2Button1.BorderRadius = 2;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.trans1.SetDecoration(this.guna2Button1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.trans.SetDecoration(this.guna2Button1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Image = global::Itami.Properties.Resources.logout_32__1_;
-            this.guna2Button1.Location = new System.Drawing.Point(467, 12);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(35, 35);
-            this.guna2Button1.TabIndex = 17;
-            this.buffTooltip.SetToolTip(this.guna2Button1, "");
-            this.buffTooltip.SetToolTipIcon(this.guna2Button1, null);
-            this.buffTooltip.SetToolTipTitle(this.guna2Button1, "");
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.trans1.SetDecoration(this.label2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.label2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(271, 34);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.label2.Location = new System.Drawing.Point(272, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 21);
+            this.label2.Size = new System.Drawing.Size(55, 25);
             this.label2.TabIndex = 23;
-            this.label2.Text = "v3.5b";
+            this.label2.Text = "v4.0a";
             this.buffTooltip.SetToolTip(this.label2, "");
             this.buffTooltip.SetToolTipIcon(this.label2, null);
             this.buffTooltip.SetToolTipTitle(this.label2, "");
@@ -5474,11 +5492,11 @@ namespace Itami
             this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.trans1.SetDecoration(this.label55, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.label55, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label55.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Font = new System.Drawing.Font("Segoe UI", 20F);
             this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(198, 25);
+            this.label55.Location = new System.Drawing.Point(192, 21);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(77, 32);
+            this.label55.Size = new System.Drawing.Size(88, 37);
             this.label55.TabIndex = 22;
             this.label55.Text = "clarity";
             this.buffTooltip.SetToolTip(this.label55, "");
@@ -5547,7 +5565,7 @@ namespace Itami
             this.navPanel.Location = new System.Drawing.Point(1, 114);
             this.navPanel.Name = "navPanel";
             this.navPanel.ShowBorders = true;
-            this.navPanel.Size = new System.Drawing.Size(30, 42);
+            this.navPanel.Size = new System.Drawing.Size(500, 42);
             this.navPanel.TabIndex = 12;
             this.buffTooltip.SetToolTip(this.navPanel, "");
             this.buffTooltip.SetToolTipIcon(this.navPanel, null);
@@ -5568,8 +5586,8 @@ namespace Itami
             this.LmaoBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.LmaoBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LmaoBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.LmaoBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.LmaoBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.LmaoBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.LmaoBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.LmaoBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.LmaoBtn.HoverState.Parent = this.LmaoBtn;
             this.LmaoBtn.ImageSize = new System.Drawing.Size(30, 30);
@@ -5597,8 +5615,8 @@ namespace Itami
             this.AimAssistButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.AimAssistButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AimAssistButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.AimAssistButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.AimAssistButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.AimAssistButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.AimAssistButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.AimAssistButton.HoverState.ForeColor = System.Drawing.Color.White;
             this.AimAssistButton.HoverState.Parent = this.AimAssistButton;
             this.AimAssistButton.ImageSize = new System.Drawing.Size(30, 30);
@@ -5626,8 +5644,8 @@ namespace Itami
             this.RelaxButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.RelaxButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RelaxButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.RelaxButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.RelaxButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.RelaxButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.RelaxButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.RelaxButton.HoverState.ForeColor = System.Drawing.Color.White;
             this.RelaxButton.HoverState.Parent = this.RelaxButton;
             this.RelaxButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -5655,8 +5673,8 @@ namespace Itami
             this.replayBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.replayBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.replayBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.replayBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.replayBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.replayBtn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.replayBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.replayBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.replayBtn.HoverState.Parent = this.replayBtn;
             this.replayBtn.ImageSize = new System.Drawing.Size(30, 30);
@@ -5681,11 +5699,11 @@ namespace Itami
             this.EnlightenButton.CustomImages.Parent = this.EnlightenButton;
             this.trans1.SetDecoration(this.EnlightenButton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.trans.SetDecoration(this.EnlightenButton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.EnlightenButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.EnlightenButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.EnlightenButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EnlightenButton.ForeColor = System.Drawing.Color.White;
-            this.EnlightenButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.EnlightenButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.EnlightenButton.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
+            this.EnlightenButton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(22)))), ((int)(((byte)(50)))));
             this.EnlightenButton.HoverState.ForeColor = System.Drawing.Color.White;
             this.EnlightenButton.HoverState.Parent = this.EnlightenButton;
             this.EnlightenButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -5858,8 +5876,11 @@ namespace Itami
             this.Load += new System.EventHandler(this.Form1_Load);
             this.bunifuPanel4.ResumeLayout(false);
             this.bunifuPanel4.PerformLayout();
+            this.guna2Panel16.ResumeLayout(false);
             this.ctrpage.ResumeLayout(false);
             this.AimAssistPage.ResumeLayout(false);
+            this.espsettings.ResumeLayout(false);
+            this.espsettings.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
@@ -5868,8 +5889,6 @@ namespace Itami
             this.guna2Panel2.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            this.espsettings.ResumeLayout(false);
-            this.espsettings.PerformLayout();
             this.LoginPage.ResumeLayout(false);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
@@ -5917,15 +5936,15 @@ namespace Itami
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.tabPage1.ResumeLayout(false);
-            this.configsettings.ResumeLayout(false);
-            this.configsettings.PerformLayout();
             this.guna2Panel14.ResumeLayout(false);
             this.guna2Panel14.PerformLayout();
+            this.configsettings.ResumeLayout(false);
+            this.configsettings.PerformLayout();
             this.tabPage7.ResumeLayout(false);
-            this.repsettings.ResumeLayout(false);
-            this.repsettings.PerformLayout();
             this.guna2Panel15.ResumeLayout(false);
             this.guna2Panel15.PerformLayout();
+            this.repsettings.ResumeLayout(false);
+            this.repsettings.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.guna2Panel13.ResumeLayout(false);
             this.guna2Panel13.PerformLayout();
@@ -6186,6 +6205,7 @@ namespace Itami
         private Guna.UI2.WinForms.Guna2Button guna2Button22;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label66;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
     }
 }
 

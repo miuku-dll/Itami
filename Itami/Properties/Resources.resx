@@ -136,8 +136,8 @@
   <data name="Dem4eg-(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dem4eg-(2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings-24-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings-24-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="profile-pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile-pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kindpng_1223363" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kindpng_1223363.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +160,11 @@
   <data name="star-8-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\star-8-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="profile-pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\profile-pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings-10-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-10-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="purpwave1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purpwave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,14 +220,17 @@
   <data name="Untitled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings-24-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-24-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Green-Wave-PNG-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Green-Wave-PNG-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="visible-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visible-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="404-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\404-bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings-23-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-23-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,7 +244,7 @@
   <data name="2q1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2q1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="404-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\404-bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PngItem_3731146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PngItem_3731146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

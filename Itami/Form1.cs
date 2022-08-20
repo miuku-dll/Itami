@@ -256,9 +256,11 @@ namespace Itami
             RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
             replayBtn.ForeColor = Color.FromArgb(60,60,60);
             LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
+            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
+            Settings.ForeColor = Color.FromArgb(60, 60, 60);
 
-            EnlightenButton.FillColor = Color.FromArgb(113, 200, 255);
-            EnlightenButton.BorderColor = Color.FromArgb(113, 200, 255);
+            EnlightenButton.FillColor = Color.FromArgb(199, 22, 50);
+            EnlightenButton.BorderColor = Color.FromArgb(199, 22, 50);
 
             AimAssistButton.FillColor = Color.FromArgb(20, 20, 20);
             replayBtn.FillColor = Color.FromArgb(20, 20, 20);
@@ -386,9 +388,11 @@ namespace Itami
             RelaxButton.ForeColor = Color.FromArgb(255, 255, 255);
             replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
             LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
+            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
+            Settings.ForeColor = Color.FromArgb(60, 60, 60);
 
-            RelaxButton.FillColor = Color.FromArgb(113, 200, 255);
-            RelaxButton.BorderColor = Color.FromArgb(113, 200, 255);
+            RelaxButton.FillColor = Color.FromArgb(199, 22, 50);
+            RelaxButton.BorderColor = Color.FromArgb(199, 22, 50);
 
             AimAssistButton.FillColor = Color.FromArgb(20, 20, 20);
             replayBtn.FillColor = Color.FromArgb(20, 20, 20);
@@ -682,9 +686,11 @@ namespace Itami
             RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
             replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
             LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
+            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
+            Settings.ForeColor = Color.FromArgb(60, 60, 60);
 
-            AimAssistButton.FillColor = Color.FromArgb(113, 200, 255);
-            AimAssistButton.BorderColor = Color.FromArgb(113, 200, 255);
+            AimAssistButton.FillColor = Color.FromArgb(199, 22, 50);
+            AimAssistButton.BorderColor = Color.FromArgb(199, 22, 50);
 
             EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
             replayBtn.FillColor = Color.FromArgb(20, 20, 20);
@@ -751,9 +757,11 @@ namespace Itami
             RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
             replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
             LmaoBtn.ForeColor = Color.FromArgb(255, 255, 255);
+            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
+            Settings.ForeColor = Color.FromArgb(60, 60, 60);
 
-            LmaoBtn.FillColor = Color.FromArgb(113, 200, 255);
-            LmaoBtn.BorderColor = Color.FromArgb(113, 200, 255);
+            LmaoBtn.FillColor = Color.FromArgb(199, 22, 50);
+            LmaoBtn.BorderColor = Color.FromArgb(199, 22, 50);
 
             EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
             replayBtn.FillColor = Color.FromArgb(20, 20, 20);
@@ -1381,9 +1389,11 @@ namespace Itami
             RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
             replayBtn.ForeColor = Color.FromArgb(255, 255, 255);
             LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
+            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
+            Settings.ForeColor = Color.FromArgb(60, 60, 60);
 
-            replayBtn.FillColor = Color.FromArgb(113, 200, 255);
-            replayBtn.BorderColor = Color.FromArgb(113, 200, 255);
+            replayBtn.FillColor = Color.FromArgb(199, 22, 50);
+            replayBtn.BorderColor = Color.FromArgb(199, 22, 50);
 
             AimAssistButton.FillColor = Color.FromArgb(20,20,20);
             EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
