@@ -107,9 +107,9 @@ namespace Itami
             hk.Hook();
 
 
-            
-           
-           
+
+
+
             if (KeyAuthApp.response.message == "invalidver")
             {
                 if (!string.IsNullOrEmpty(KeyAuthApp.app_data.downloadLink))
@@ -171,7 +171,7 @@ namespace Itami
             if (vk == VK.KEY_DELETE)
             {
                 showSwitch = !showSwitch;
-               
+
 
                 if (showSwitch == true)
                 {
@@ -184,7 +184,7 @@ namespace Itami
             }
         }
 
-        
+
 
 
         private void Minimizebutton_Click(object sender, EventArgs e)
@@ -206,16 +206,16 @@ namespace Itami
                 {
                     Invoke((MethodInvoker)delegate
                    {
-                       
+
                        Notification.Show(this, "Logged as " + KeyAuthApp.user_data.username, Bunifu.UI.WinForms.BunifuSnackbar.MessageTypes.Success);
-                       
+
                        ctrpage.AllowTransitions = true;
-                     
+
                        ctrpage.SetPage(3);
                        ctrpage.AllowTransitions = true;
                        navPanel.Visible = true;
-                       
-                       
+
+
 
                        //SessionIsVaild.Enabled = true;
 
@@ -245,11 +245,11 @@ namespace Itami
 
         }
 
- 
+
 
         private async void EnlightenButton_Click(object sender, EventArgs e)
         {
-            
+
 
             ctrpage.SetPage(0);
 
@@ -309,7 +309,7 @@ namespace Itami
 
         private void TopMostToggle_CheckedChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void CustomTit_TextChanged(object sender, EventArgs e)
@@ -319,7 +319,7 @@ namespace Itami
 
         private async void Settings_Click(object sender, EventArgs e)
         {
-            
+
             ctrpage.SetPage(4);
         }
         private string IconPath;
@@ -361,7 +361,7 @@ namespace Itami
 
         private async void RelaxButton_Click(object sender, EventArgs e)
         {
-            
+
 
 
             ctrpage.SetPage(3);
@@ -370,11 +370,11 @@ namespace Itami
         }
         private async void Str()
         {
-            
+
 
         }
 
- 
+
         private async void RelaxToggle_CheckedChanged(object sender, EventArgs e)
         {
             cla.enableRelax = RelaxToggle.Checked;
@@ -643,7 +643,7 @@ namespace Itami
 
         private async void AimAssistButton_Click(object sender, EventArgs e)
         {
-           
+
 
 
 
@@ -652,7 +652,7 @@ namespace Itami
 
         private void UIAnimateToggle_CheckedChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void SecChange(object sender, EventArgs e)
@@ -700,7 +700,7 @@ namespace Itami
 
         private async void LmaoBtn_Click(object sender, EventArgs e)
         {
-           
+
             key.Text = KeyAuthApp.user_data.username;
             subscriptionDaysLabel.Text = KeyAuthApp.expirydaysleft();
             version.Text = KeyAuthApp.app_data.version;
@@ -800,11 +800,11 @@ namespace Itami
             {
                 relaxsettings.Visible = false;
                 itami.Itamiconfig.EnableHitScanPrediction = PredictionToggle.Checked;
-                
+
             }
             else
             {
-                
+
             }
 
         }
@@ -917,14 +917,14 @@ namespace Itami
             {
                 if (ScreenShareProtectToggle.Checked)
                 {
-                    
+
                     ShowInTaskbar = false;
                     SetWindowDisplayAffinity(this.Handle, WDA_MONITOR);
 
                 }
                 else
                 {
-                    
+
                     ShowInTaskbar = true;
                     SetWindowDisplayAffinity(this.Handle, WDA_NONE);
 
@@ -939,7 +939,7 @@ namespace Itami
         private void TopMostToggle_CheckedChanged_1(object sender, EventArgs e)
         {
 
-           
+
         }
 
         private void UIAnimateToggle_CheckedChanged_1(object sender, EventArgs e)
@@ -958,14 +958,14 @@ namespace Itami
         {
             if (BlantanrModeToggle.Checked)
             {
-                
+
                 AimType.Items.Add("Aimbot");
                 AimType.Items.Add("AimCorrection");
                 TimwWarpRate.Minimum = 0;
             }
             else
             {
-                
+
                 AimType.Items.Remove("Aimbot");
                 AimType.Items.Remove("AimCorrection");
                 AimType.SelectedIndex = 0;
@@ -1069,7 +1069,7 @@ namespace Itami
 
         }
 
-        
+
 
         private void aimWhen0_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1186,7 +1186,7 @@ namespace Itami
 
         private void bunifuPanel4_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void s(object sender, EventArgs e)
@@ -1256,7 +1256,7 @@ namespace Itami
 
         private void replayBtn_Click(object sender, EventArgs e)
         {
-            
+
 
 
 
@@ -1286,7 +1286,7 @@ namespace Itami
             }
         }
 
-        
+
 
         private void toka_Click(object sender, EventArgs e)
         {
@@ -1301,7 +1301,7 @@ namespace Itami
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
-            
+
 
             LoadExternConfig();
             ctrpage.SetPage(7);
@@ -1314,8 +1314,8 @@ namespace Itami
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            
-            
+
+
         }
 
         private void bunifuPanel6_Click(object sender, EventArgs e)
@@ -1353,13 +1353,13 @@ namespace Itami
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-           
-            
+
+
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
@@ -1383,7 +1383,7 @@ namespace Itami
             trans1.Show(espsettings, false, Guna.UI2.AnimatorNS.Animation.Transparent);
             espsettings.BringToFront();
             espsettings.Visible = true;
-            
+
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
@@ -1411,9 +1411,9 @@ namespace Itami
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-           
+
             aimsettings.Visible = false;
-            
+
         }
 
         private void guna2Button10_Click(object sender, EventArgs e)
@@ -1426,10 +1426,10 @@ namespace Itami
 
         private void guna2Button11_Click(object sender, EventArgs e)
         {
-            
-            
+
+
             relaxsettings.Visible = false;
-            
+
         }
 
         private void guna2Button12_Click(object sender, EventArgs e)
@@ -1447,9 +1447,9 @@ namespace Itami
 
         private void guna2Button14_Click(object sender, EventArgs e)
         {
-            
+
             predsettings.Visible = false;
-          
+
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -1506,7 +1506,7 @@ namespace Itami
         private void guna2Button18_Click(object sender, EventArgs e)
         {
             ctrpage.SetPage(0);
-            
+
             navPanel.Size = new Size(512, 42);
             ctrpage.Size = new Size(528, 451);
             ctrpage.Location = new System.Drawing.Point(1, 167);
@@ -1543,7 +1543,7 @@ namespace Itami
 
         private void guna2Button22_Click(object sender, EventArgs e)
         {
-            
+
             repsettings.Location = new System.Drawing.Point(38, 85);
             trans1.Show(repsettings, false, Guna.UI2.AnimatorNS.Animation.Transparent);
             repsettings.BringToFront();
@@ -1554,7 +1554,7 @@ namespace Itami
         {
             guna2Button2.Visible = true;
             Settings.Visible = true;
-            
+
             navPanel.Size = new Size(512, 42);
             ctrpage.Size = new Size(528, 451);
             ctrpage.Location = new System.Drawing.Point(1, 167);
@@ -1566,14 +1566,14 @@ namespace Itami
 
         private void guna2Button23_Click(object sender, EventArgs e)
         {
-            
 
-           
+
+
         }
 
         private void guna2Button25_Click(object sender, EventArgs e)
         {
-           
+
 
         }
 
