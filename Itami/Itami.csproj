@@ -55,7 +55,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <ApplicationIcon>logo1.ico</ApplicationIcon>
+    <ApplicationIcon>logo2.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -210,6 +210,10 @@
     <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
     </Reference>
+    <Reference Include="FireSharp, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Documents\_yuh\NetFucker\FireSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2">
       <HintPath>..\Important References\Guna.UI2.dll</HintPath>
     </Reference>
@@ -358,8 +362,9 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="vk_swiftshader">
-      <HintPath>..\DLL\vk_swiftshader.dll</HintPath>
+    <Reference Include="vk_swiftshader, Version=5.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependency Cache\vk_swiftshader.dll</HintPath>
     </Reference>
     <Reference Include="WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL">
       <HintPath>..\packages\InputSimulator.1.0.4.0\lib\net20\WindowsInput.dll</HintPath>
@@ -468,6 +473,11 @@
     <Content Include="FodyWeavers.xml" />
     <Content Include="logo.ico" />
     <Content Include="logo1.ico" />
+    <Content Include="logo2.ico" />
+    <None Include="Resources\cog-32.png" />
+    <None Include="Resources\logo2.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\bluecover.png" />
     <None Include="Resources\PngItem_3731146.png" />
     <None Include="Resources\settings-10-64.png" />
     <None Include="Resources\404-bg.png" />

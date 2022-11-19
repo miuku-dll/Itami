@@ -28,7 +28,7 @@ namespace Itami
            name: "Itami",
            ownerid: "YUwTrOV29Y",
            secret: "8db075827a10f0deafe440e3e9f5805d0c3e3478a4da1fcdfc200ef7bc793d45",
-           version: "4a"
+           version: "4.1"
 
        );
         Form formie = new Form();
@@ -108,7 +108,7 @@ namespace Itami
 
 
             
-            label2.Text = 'v' + KeyAuthApp.app_data.version;
+           
            
             if (KeyAuthApp.response.message == "invalidver")
             {
@@ -211,13 +211,11 @@ namespace Itami
                        
                        ctrpage.AllowTransitions = true;
                      
-                       ctrpage.SetPage(9);
+                       ctrpage.SetPage(3);
                        ctrpage.AllowTransitions = true;
-                       featureslabel.Visible = true;
+                       navPanel.Visible = true;
                        
-                       trans.ShowSync(featuress, false, Bunifu.UI.WinForms.BunifuAnimatorNS.Animation.VertSlide);
-                       trans.ShowSync(profiless, false, Bunifu.UI.WinForms.BunifuAnimatorNS.Animation.VertSlide);
-                     
+                       
 
                        //SessionIsVaild.Enabled = true;
 
@@ -251,21 +249,7 @@ namespace Itami
 
         private async void EnlightenButton_Click(object sender, EventArgs e)
         {
-            AimAssistButton.ForeColor = Color.FromArgb(60, 60, 60);
-            EnlightenButton.ForeColor = Color.FromArgb(255, 255, 255);
-            RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
-            replayBtn.ForeColor = Color.FromArgb(60,60,60);
-            LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(60, 60, 60);
-
-            EnlightenButton.FillColor = Color.FromArgb(199, 22, 50);
-            EnlightenButton.BorderColor = Color.FromArgb(199, 22, 50);
-
-            AimAssistButton.FillColor = Color.FromArgb(20, 20, 20);
-            replayBtn.FillColor = Color.FromArgb(20, 20, 20);
-            RelaxButton.FillColor = Color.FromArgb(20, 20, 20);
-            LmaoBtn.FillColor = Color.FromArgb(20, 20, 20);
+            
 
             ctrpage.SetPage(0);
 
@@ -335,13 +319,7 @@ namespace Itami
 
         private async void Settings_Click(object sender, EventArgs e)
         {
-            AimAssistButton.ForeColor = Color.FromArgb(60, 60, 60);
-            EnlightenButton.ForeColor = Color.FromArgb(60, 60, 60);
-            RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
-            replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(255, 255, 255);
-            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
+            
             ctrpage.SetPage(4);
         }
         private string IconPath;
@@ -383,21 +361,7 @@ namespace Itami
 
         private async void RelaxButton_Click(object sender, EventArgs e)
         {
-            AimAssistButton.ForeColor = Color.FromArgb(60, 60, 60);
-            EnlightenButton.ForeColor = Color.FromArgb(60, 60, 60);
-            RelaxButton.ForeColor = Color.FromArgb(255, 255, 255);
-            replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(60, 60, 60);
-
-            RelaxButton.FillColor = Color.FromArgb(199, 22, 50);
-            RelaxButton.BorderColor = Color.FromArgb(199, 22, 50);
-
-            AimAssistButton.FillColor = Color.FromArgb(20, 20, 20);
-            replayBtn.FillColor = Color.FromArgb(20, 20, 20);
-            EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
-            LmaoBtn.FillColor = Color.FromArgb(20, 20, 20);
+            
 
 
             ctrpage.SetPage(3);
@@ -646,13 +610,11 @@ namespace Itami
         }
         private void setAo()
         {
-
             itami.aimAssist.setAimSpeed(AimSpeedD.Value);
             AimSpeedDisplay.Text = AimSpeedD.Value.ToString();
         }
         private void AimSpeedD_Scroll(object sender, ScrollEventArgs e)
         {
-
             setAo();
         }
         private void setAb()
@@ -681,21 +643,7 @@ namespace Itami
 
         private async void AimAssistButton_Click(object sender, EventArgs e)
         {
-            AimAssistButton.ForeColor = Color.FromArgb(255, 255, 255);
-            EnlightenButton.ForeColor = Color.FromArgb(60,60,60);
-            RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
-            replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(60, 60, 60);
-
-            AimAssistButton.FillColor = Color.FromArgb(199, 22, 50);
-            AimAssistButton.BorderColor = Color.FromArgb(199, 22, 50);
-
-            EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
-            replayBtn.FillColor = Color.FromArgb(20, 20, 20);
-            RelaxButton.FillColor = Color.FromArgb(20, 20, 20);
-            LmaoBtn.FillColor = Color.FromArgb(20, 20, 20);
+           
 
 
 
@@ -752,21 +700,7 @@ namespace Itami
 
         private async void LmaoBtn_Click(object sender, EventArgs e)
         {
-            AimAssistButton.ForeColor = Color.FromArgb(60,60,60);
-            EnlightenButton.ForeColor = Color.FromArgb(60, 60, 60);
-            RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
-            replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            LmaoBtn.ForeColor = Color.FromArgb(255, 255, 255);
-            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(60, 60, 60);
-
-            LmaoBtn.FillColor = Color.FromArgb(199, 22, 50);
-            LmaoBtn.BorderColor = Color.FromArgb(199, 22, 50);
-
-            EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
-            replayBtn.FillColor = Color.FromArgb(20, 20, 20);
-            RelaxButton.FillColor = Color.FromArgb(20, 20, 20);
-            AimAssistButton.FillColor = Color.FromArgb(20, 20, 20);
+           
             key.Text = KeyAuthApp.user_data.username;
             subscriptionDaysLabel.Text = KeyAuthApp.expirydaysleft();
             version.Text = KeyAuthApp.app_data.version;
@@ -972,16 +906,9 @@ namespace Itami
 
         private void RelaxToggle_CheckedChanged_1(object sender, EventArgs e)
         {
-            if (RelaxToggle.Checked)
-            {
-                predsettings.Visible = false;
-                cla.enableRelax = RelaxToggle.Checked;
-                
-            }
-            else
-            {
-                
-            }
+            predsettings.Visible = false;
+            cla.enableRelax = RelaxToggle.Checked;
+
         }
 
         private void ScreenShareProtectToggle_CheckedChanged_1(object sender, EventArgs e)
@@ -1050,41 +977,18 @@ namespace Itami
         {
 
 
-            if (AimAssistToggle.Checked)
-            {
-                cla.enableAA = AimAssistToggle.Checked;
-                label8.ForeColor = Color.FromArgb(255, 255, 255);
-            }
-            else
-            {
-                label8.ForeColor = Color.FromArgb(35, 35, 35);
-            }
+            cla.enableAA = AimAssistToggle.Checked;
         }
 
         private void CSChangerToggle_CheckedChanged_1(object sender, EventArgs e)
         {
-            if (CSChangerToggle.Checked)
-            {
-                cla.enableCSChanger = CSChangerToggle.Checked;
-                
-            }
-            else
-            {
-                
-            }
+            cla.enableCSChanger = CSChangerToggle.Checked;
         }
 
         private void HPDrainRateChangerToggle_CheckedChanged(object sender, EventArgs e)
         {
-            if (HPDrainRateChangerToggle.Checked)
-            {
-                cla.enableHPChanger = HPDrainRateChangerToggle.Checked;
-                
-            }
-            else
-            {
-                
-            }
+
+            cla.enableHPChanger = HPDrainRateChangerToggle.Checked;
 
         }
 
@@ -1092,30 +996,14 @@ namespace Itami
         {
 
 
-            if (ArChangerSwitch.Checked)
-            {
-                cla.enableARCheat = ArChangerSwitch.Checked;
-                
-            }
-            else
-            {
-                
-            }
+            cla.enableARCheat = ArChangerSwitch.Checked;
 
         }
 
         private void esprog_CheckedChanged_1(object sender, EventArgs e)
         {
 
-            if (esprog.Checked)
-            {
-                cla.enableESP = esprog.Checked;
-              
-            }
-            else
-            {
-               
-            }
+            cla.enableESP = esprog.Checked;
         }
 
         private void label50_Click(object sender, EventArgs e)
@@ -1131,15 +1019,7 @@ namespace Itami
         private void TimewarpToggle_CheckedChanged_1(object sender, EventArgs e)
         {
 
-            if (TimewarpToggle.Checked)
-            {
-                cla.enableTimewarp = TimewarpToggle.Checked;
-                
-            }
-            else
-            {
-                
-            }
+            cla.enableTimewarp = TimewarpToggle.Checked;
         }
 
         private void SessionIsVaild_Tick(object sender, EventArgs e)
@@ -1346,15 +1226,7 @@ namespace Itami
 
         private void ReplayBotToggle_CheckedChanged(object sender, EventArgs e)
         {
-            if (ReplayBotToggle.Checked)
-            {
-                cla.enableReplayBot = ReplayBotToggle.Checked;
-                
-            }
-            else
-            {
-                
-            }
+            cla.enableReplayBot = ReplayBotToggle.Checked;
         }
 
         private void FlipToggle_CheckedChanged(object sender, EventArgs e)
@@ -1384,21 +1256,7 @@ namespace Itami
 
         private void replayBtn_Click(object sender, EventArgs e)
         {
-            AimAssistButton.ForeColor = Color.FromArgb(60, 60, 60);
-            EnlightenButton.ForeColor = Color.FromArgb(60, 60, 60);
-            RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
-            replayBtn.ForeColor = Color.FromArgb(255, 255, 255);
-            LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            guna2Button2.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(60, 60, 60);
-
-            replayBtn.FillColor = Color.FromArgb(199, 22, 50);
-            replayBtn.BorderColor = Color.FromArgb(199, 22, 50);
-
-            AimAssistButton.FillColor = Color.FromArgb(20,20,20);
-            EnlightenButton.FillColor = Color.FromArgb(20, 20, 20);
-            RelaxButton.FillColor = Color.FromArgb(20, 20, 20);
-            LmaoBtn.FillColor = Color.FromArgb(20, 20, 20);
+            
 
 
 
@@ -1443,13 +1301,7 @@ namespace Itami
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
-            AimAssistButton.ForeColor = Color.FromArgb(60, 60, 60);
-            EnlightenButton.ForeColor = Color.FromArgb(60, 60, 60);
-            RelaxButton.ForeColor = Color.FromArgb(60, 60, 60);
-            replayBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            LmaoBtn.ForeColor = Color.FromArgb(60, 60, 60);
-            Settings.ForeColor = Color.FromArgb(60, 60, 60);
-            guna2Button2.ForeColor = Color.FromArgb(255, 255, 255);
+            
 
             LoadExternConfig();
             ctrpage.SetPage(7);
@@ -1654,7 +1506,7 @@ namespace Itami
         private void guna2Button18_Click(object sender, EventArgs e)
         {
             ctrpage.SetPage(0);
-            featureslabel.Text = "Features";
+            
             navPanel.Size = new Size(512, 42);
             ctrpage.Size = new Size(528, 451);
             ctrpage.Location = new System.Drawing.Point(1, 167);
@@ -1702,7 +1554,7 @@ namespace Itami
         {
             guna2Button2.Visible = true;
             Settings.Visible = true;
-            featureslabel.Text = "Features";
+            
             navPanel.Size = new Size(512, 42);
             ctrpage.Size = new Size(528, 451);
             ctrpage.Location = new System.Drawing.Point(1, 167);
@@ -1710,6 +1562,34 @@ namespace Itami
             guna2Button2.Visible = true;
             Settings.Visible = true;
             trans.ShowSync(navPanel, false, Bunifu.UI.WinForms.BunifuAnimatorNS.Animation.HorizSlide);
+        }
+
+        private void guna2Button23_Click(object sender, EventArgs e)
+        {
+            
+
+           
+        }
+
+        private void guna2Button25_Click(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void featureslabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label53_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void warpsettings_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

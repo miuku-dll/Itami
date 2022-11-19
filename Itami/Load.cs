@@ -31,6 +31,7 @@ namespace Itami
             label1.Text = randomTIP();
             trans1.Show(label1, false, Guna.UI2.AnimatorNS.Animation.Transparent);
             
+
         }
         public void SetStatus(string Status)
         {
@@ -67,6 +68,21 @@ namespace Itami
         }
 
         private void Statu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox11_Click(object sender, EventArgs e)
         {
 
         }
