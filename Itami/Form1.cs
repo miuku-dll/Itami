@@ -59,17 +59,6 @@ namespace Itami
             config = itami.Itamiconfig;
 
             esp = espoverlay;
-
-            var osu = itami.GetOsu();
-
-            itami.aimAssist = new ItamiAPI.Modules.AimAssist(config);
-            itami.replayPlayer = new ItamiAPI.Modules.ReplayPlayer();
-            itami.ArChanger = new ARChanger(osu, config);
-            itami.circleSizeChange = new CircleSizeChanger(osu, config);
-            itami.HPdrainChanger = new HPDrainChanger(osu, config);
-            itami.timewarp = new ItamiAPI.Modules.Timewarp(config);
-            itami.RelaxAPI = new ItamiAPI.Modules.Relax(config);
-            itami.lmao = new ItamiAPI.Modules.Lmao(osu);
         }
         static string random_string()
         {

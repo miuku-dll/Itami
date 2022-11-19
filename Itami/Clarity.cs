@@ -14,6 +14,8 @@ using System.Numerics;
 using osu.Memory.Objects.Player.Beatmaps.Objects;
 using System.Runtime.InteropServices;
 using osu.Enums;
+using ItamiAPI.Configuration;
+using SimpleDependencyInjection;
 
 namespace Itami
 {
@@ -63,10 +65,29 @@ namespace Itami
             Thread.Sleep(2000);
             var status = await itami.InitializeAPI("six is the best");
 
-            itami.load();
-            itami.Itamiconfig = new ItamiAPI.Configuration.Config();
+            itami.Itamiconfig = new Config();
 
-            //itami.load();
+            var osu = itami.GetOsu();
+            var config = itami.Itamiconfig;
+
+            /*
+            // load() function
+            itami.osu = new OsuManager();
+            DependencyContainer.Cache(itami.osu);
+            itami.osuProc = itami.osu.tryGetProcess();
+            var initialized = itami.osu.Initialize();
+            */
+
+            itami.load();
+
+            itami.aimAssist = new ItamiAPI.Modules.AimAssist(config);
+            itami.replayPlayer = new ItamiAPI.Modules.ReplayPlayer();
+            itami.ArChanger = new ARChanger(osu, config);
+            itami.circleSizeChange = new CircleSizeChanger(osu, config);
+            itami.HPdrainChanger = new HPDrainChanger(osu, config);
+            itami.timewarp = new ItamiAPI.Modules.Timewarp(config);
+            itami.RelaxAPI = new ItamiAPI.Modules.Relax(config);
+            itami.lmao = new ItamiAPI.Modules.Lmao(osu);
 
             if (!status)
             {
@@ -103,6 +124,7 @@ namespace Itami
                 loadFrom.SetStatus("Done,have fun!");
                 StartTask();
             }
+
         }
         private IntPtr desktopPtr = GetDC(IntPtr.Zero);
         public Graphics graphics;
