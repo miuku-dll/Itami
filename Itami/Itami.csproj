@@ -363,7 +363,7 @@
     </Reference>
     <Reference Include="vk_swiftshader, Version=5.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependency Cache\vk_swiftshader.dll</HintPath>
+      <HintPath>..\DLL\vk_swiftshader.dll</HintPath>
     </Reference>
     <Reference Include="WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL">
       <HintPath>..\packages\InputSimulator.1.0.4.0\lib\net20\WindowsInput.dll</HintPath>

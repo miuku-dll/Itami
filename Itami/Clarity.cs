@@ -61,9 +61,12 @@ namespace Itami
             Thread.Sleep(2000);
             loadFrom.SetStatus("Initializing...");
             Thread.Sleep(2000);
-            var status = await itami.InitializeAPI("YhHeFZXYSe4zdVurVyrceI15XCC7Mcwe");
+            var status = await itami.InitializeAPI("six is the best");
 
+            itami.load();
             itami.Itamiconfig = new ItamiAPI.Configuration.Config();
+
+            //itami.load();
 
             if (!status)
             {
