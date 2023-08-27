@@ -26,8 +26,8 @@ namespace Itami
     {
         public static api KeyAuthApp = new api(
            name: "Itami",
-           ownerid: "YUwTrOV29Y",
-           secret: "8db075827a10f0deafe440e3e9f5805d0c3e3478a4da1fcdfc200ef7bc793d45",
+           ownerid: "",
+           secret: "",
            version: "4.1"
 
        );
